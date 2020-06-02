@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    justify-content: space-between;
+    padding-bottom: 100px;
+  
+  }
+  .logo {
+    height: 80px;
+    width: 100px;
+  }
+
+  .search {
+      height: 20px;
+  }
+  
+  .searchbar {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      left: 140px;
+
+  }
+  .covid-header {
+    background-color: #0078d7;
+    color: white;
+    text-align: center;
+    font-family: helvetica;
+    height: 50px;
+    width: 800px;
+    padding: 5px;
+    user-select: none;
+    margin: 0 0 70px 0;
+  }
+  .menu {
+    width: 40vw;
+    display: flex;
+    position: absolute;
+    font-size: 13px;
+    top: 32px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 150px;
+    font-family: helvetica;
+  }
+  .bg-img {
+    text-align: center;
+    height: 330px;
+    width: 810px;
+    background: black;
+    position: absolute;
+    top: 160px;
+  }
+
+  .ad {
+    width: 810px;
+  }
+  
+  .iconBar, .icon {
+    font-family: helvetica;
+    display: flex;
+    font-weight: bold;
+    font-size: 14px;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 170px 0 0 0;
+  }
+
+  .bottom-bar {
+      height: 120px;
+      padding: 10px;
+  
+  }
+  .bottomBar {
+      display: flex;
+      flex-direction: row;
+      margin: 70px 0 0 0;
+      justify-content: center;
+      text-align: center;
+
+  }
+  .bottom-title {
+      font-family: helvetica;
+      font-weight: bold;
+  }
+  .undertext {
+    font-family: helvetica;
+    font-size: 12px;
+}
+
+.link {
+    font-family: helvetica;
+    font-size: 14px;
+    font-weight: bold;
+    color: teal;
+}
