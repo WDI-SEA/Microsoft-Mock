@@ -1,17 +1,20 @@
 .container {
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 90%;
     margin: 0 auto;
+    position: relative;
 }
 
 .row {
-    
+    width: 90%px;
 }
+
 .covid-msg {
-    background-color: blue;
+    background-color:#1367B8;
     color: white;
     text-align: center;
+    font-size: 15px;
 }
 
 ul {
@@ -23,6 +26,7 @@ ul {
 
 li {
     display: inline;
+    padding: 10px;
 }
 
 .menu {
@@ -31,3 +35,25 @@ li {
     position: absolute;
 }
 
+.navbar {
+    padding: 5px;
+    font-size: 15px;
+    
+}
+
+/* .rightMenu {
+    display: inline-flex;
+    align-content: flex-end;
+
+} */
+
+.bg-img img {
+    display:relative;
+    width: auto;
+}
+
+.small-imgs {
+    display: inline-block;
+    padding-bottom: 10px;
+    position: absolute;
+}
