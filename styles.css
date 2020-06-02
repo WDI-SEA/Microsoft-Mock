@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.row {
+    
+}
+.covid-msg {
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    padding-bottom: 10px;
+    bottom: 10px;
+    position: relative;
+}
+
+li {
+    display: inline;
+}
+
+.menu {
+    display: inline-block;
+    padding-bottom: 10px;
+    position: absolute;
+}
+
