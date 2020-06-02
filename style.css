@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1150px;
+  margin: 0 auto;
+}
+
+.bg-img {
+  width: 1150px;
+  height: 400px;
+}
+.row {
+}
+
+.covid-header {
+  background-color: #0078d7;
+  color: white;
+  text-align: center;
+}
+
+ul {
+  display: inline-block;
+  bottom: 10px;
+  position: relative;
+}
+
+li {
+  display: inline;
+}
+
+.menu {
+  display: inline-block;
+  position: absolute;
+}
+
+.shopping-links {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  float: center;
+}
+
+.image {
+
+}
