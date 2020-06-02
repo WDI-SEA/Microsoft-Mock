@@ -1,0 +1,69 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {}
+main {}
+
+
+nav {
+    /* background-color: green; */
+}
+ul {
+    display: flex;
+    list-style-type: none;
+}
+li {
+    display: block;
+    font-size: 13px;
+}
+
+
+/*****************
+***  Classes  ****
+*****************/
+.main-nav {
+    /* display: inline-block; */
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+.test {
+    display: flex;
+}
+.microsoft-logo img {
+    background-color: blue;
+    width: 130px;
+}
+.c-main-nav {
+    background-color: blue;
+}
+.cc-main-nav{
+    background-color: blue;
+    position: relative;
+}
+.search-icon {
+    height: 35px;
+    position: absolute;    
+}
+.cart-icon {
+    height: 35px;
+    position: absolute;
+}
+.account-icon {
+    height: 30px;
+    position: absolute;
+}
+.covid {
+    text-align: center;
+    color: white;
+    background-color: #0858aa;
+}
+
+.main-display {
+    text-align: center;
+}
+.main-display img {
+    max-width: 100%;
+    height: auto;
+}
