@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+}
+
+body {
+  width: 1585px;
+}
+
+main {  
+  display: flex
+  justify-content: center;
+}
+
+div {
+  border: 1px dotted black;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+img {
+  display: flexbox;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 88%;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  width: 88%;
+}
