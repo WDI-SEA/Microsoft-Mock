@@ -54,11 +54,14 @@
     position: absolute;
     top: 160px;
   }
-
   .ad {
-    width: 810px;
+    height: 330px;
+    width: 600px;
   }
-  
+  .ad2 {
+    height: 330px;
+    width: 810px;
+}
   .iconBar, .icon {
     font-family: helvetica;
     display: flex;
@@ -72,8 +75,8 @@
   .bottom-bar {
       height: 120px;
       padding: 10px;
-  
   }
+
   .bottomBar {
       display: flex;
       flex-direction: row;
