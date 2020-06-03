@@ -65,7 +65,14 @@ li {
 
 .first-img {
     width: 1000px;
-    height: auto;
+    height: 373.06px;
+}
+
+.alternate{
+    display: inline-flex;
+    position: absolute;
+    margin-left: -1000px;
+    z-index: -1;
 }
 
 .bar-below {
