@@ -1,0 +1,90 @@
+body { text-align: center;
+    font-family: helvetica;
+
+}
+.header {
+    width: 40vw;
+    display: flex;
+    position: absolute;
+    font-size: 13px;
+    top: -45px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 150px;
+    font-family: helvetica;
+    margin: 70px 
+  }
+  .search {
+      margin: 0px 2px 0px 1000px; 
+  }
+.final {
+    display: block;
+}
+.align {
+    display: block;
+}
+.line3 {
+    display: block;
+}
+.COVID {
+    background: hsl(207, 96%, 45%);
+    color: white;
+    font-family: helvetica; 
+    width: 800px;
+    text-align: center;
+    height: 25px;
+    padding: 10px;
+    margin: 0 0 70px 424px;
+    display: center;
+    justify-content: center;
+}
+#commerce {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.commerce-images3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 150px;
+    }
+div > #grab > .header3 {
+    margin: 0px 20px 850px 0pc;
+}
+
+#commerce {
+    padding: 300px 0px 60px 0px;
+    margin: 0 auto;
+}
+
+
+
+.commerceimg {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.commerce-images2 {
+    display: flex;
+    justify-content: center;
+    margin: 200px 30px 70px 30px;
+    
+}
+.screenGrab3 {
+    margin: 0 auto;
+}
+.commerce3 {
+    height: 150px;
+    width: 260px;
+}
+.commerce2 {
+    height: 150px;
+    width: 260px;
+}
+div .content {
+    text-align: justify;
+    width: [width of img];
+    font-weight: bold;
+}
