@@ -161,6 +161,7 @@ picture {
   width:inherit;
   display: flex;
   justify-content: space-between;
+
 }
 
 .prodImg{
@@ -185,8 +186,9 @@ picture {
 .blue {
   color: #0067B8;
   display:inline-block;
-  margin-right:10px;
+  /* margin-right:10px; */
   /* border:2px solid red; */
+  padding-right:5px;
 }
 
 
@@ -195,6 +197,10 @@ picture {
   width:1605px;
 }
 
+.blueTextUL{
+  /* border: 2px solid red; */
+  display:flex;
+}
 
 #prodDesc, #shopDesc {
   width:305px;
