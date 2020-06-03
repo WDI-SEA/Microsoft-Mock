@@ -12,6 +12,7 @@
     height: 70px;
     width: 153px;
     display:inline-block;
+    margin-left: -10px;
 }
 
 .menu {
@@ -20,12 +21,43 @@
     margin-left: 100px;
     margin-top: 5px;
     font-size: 13px;
+    overflow: visible;
 }
 
 .menu ul li {
-    margin-left: 25px;
+    margin-left: 20px;
 }
 
+.nav-right {
+    display: inline-block;
+    margin-right: 50px;
+    height: 117px;
+    width: auto;
+    font-size: 13px;
+    line-height: 117px;
+    vertical-align: middle;
+    padding-top: 0;
+}
+
+.all {
+    padding-left: 97px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.copy {
+    display: inline-block;
+    position: absolute;
+    padding-right: 0px;
+    margin-left: 40px;;
+
+
+}
+/* 
+.nav ul li {
+    margin-top: -20px;
+} */
 p {
     background-color: #0067B8;
     text-align: center;
