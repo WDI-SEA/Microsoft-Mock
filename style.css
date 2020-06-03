@@ -30,19 +30,20 @@ body { text-align: center;
     background: hsl(207, 96%, 45%);
     color: white;
     font-family: helvetica; 
-    width: 800px;
+    width: 1578px;
     text-align: center;
     height: 25px;
+    margin-left: 25px;
     padding: 10px;
-    margin: 0 0 70px 424px;
     display: center;
     justify-content: center;
 }
 #commerce {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    flex-wrap: nowrap;
+    justify-content: center; 
+    flex-wrap: wrap;
+    align-content: space-between;
 }
 .commerce-images3 {
         display: flex;
@@ -53,13 +54,13 @@ body { text-align: center;
 div > #grab > .header3 {
     margin: 0px 20px 850px 0pc;
 }
-
 #commerce {
     padding: 300px 0px 60px 0px;
     margin: 0 auto;
 }
-
-
+.box {
+    padding: 0px;
+}
 
 .commerceimg {
     display: flex;
@@ -69,11 +70,12 @@ div > #grab > .header3 {
 .commerce-images2 {
     display: flex;
     justify-content: center;
-    margin: 200px 30px 70px 30px;
+    margin: 100px 30px 90px 30px;
     
 }
 .screenGrab3 {
     margin: 0 auto;
+    width: 1000px;
 }
 .commerce3 {
     height: 150px;
