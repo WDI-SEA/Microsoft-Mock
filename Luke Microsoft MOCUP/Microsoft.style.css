@@ -1,0 +1,76 @@
+
+body {
+  
+  margin:0;
+  display: flex;
+}
+
+
+.container {
+  justify-self: center;
+
+}
+
+/*
+display: flex;
+  flex-direction: column;
+  flex: wrap:
+  */
+
+
+
+.micro {
+  justify-self: center;
+  flex-grow: 2;
+}
+
+#blue {
+  text-align: center;
+  background-color: #0078d7;
+  height: 50px;
+  width: 100%;
+  color: white;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+  
+
+
+ul {
+  display:inline-block;
+  border: 1px solid green;
+  bottom:10 px;
+  position:relative;
+}
+
+/*
+li {
+  display:inline;
+}
+*/
+
+.menu {
+  display:inline-block;
+  position:absoute;
+}
+
+.micro {
+  
+  height: 100px;
+  width: 200px;
+  margin:0 auto;
+}
+
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+  
+.cell {
+ 
+}
