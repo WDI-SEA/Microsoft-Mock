@@ -10,7 +10,6 @@ img {
 .navContainer {
     display: flex;
     flex-direction: column;
-    
   }
   
   .row {
@@ -18,9 +17,6 @@ img {
     justify-content: center;
   }
 
-
-  
-  
   .covid-header {
     background-color: #0078d7;
     color: white;
