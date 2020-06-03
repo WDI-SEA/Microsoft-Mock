@@ -54,6 +54,7 @@ li {
 
 .bar-below {
     height: 40px;
+    
 }
 
 .first-row {
@@ -83,6 +84,7 @@ li {
     position: absolute;
     text-align: center;
     margin-top: -10px;
+    margin-left: -30px;
 
 }
 
@@ -93,5 +95,56 @@ li {
     line-height: 1.2em;
     font-weight: 700;
     font-size: 15px;
+    margin-bottom: 10px;
+}
 
+.first-block {
+    margin-top: 100px;
+    margin-left: -20px;
+}
+.first-block ul {
+    width: 1000px;
+    height: 40;
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-top: 55px;
+    margin-left: -30px;
+    /* padding-bottom: 0; */
+
+}
+
+.block-img {
+    display: inline-flex;
+    flex-direction: column;
+    width: 230px;
+    height: 140px;
+    padding: 10px;
+}
+
+.block-li div {
+    display: inline-flex;
+    flex-direction: column;
+    width: 230px;
+    padding: 10px;
+    line-height: 1.2em;
+}
+
+.bold {
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.text {
+    font-size: 14px;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 240px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.shop {
+    color: #0067B8;
+    font-size: 14.5px;
+    font-weight: 750;
 }
