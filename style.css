@@ -1,0 +1,97 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    margin: 0 auto;
+    position: relative;
+    justify-content: space-between;
+    padding-bottom: 100px;
+  }
+
+  .logo {
+    height: 80px;
+    width: 100px;
+  }
+
+  .search {
+      height: 20px;
+  }
+
+  .navbar {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      left: 140px;
+  }
+
+  .covid-header {
+    background-color: #0078d7;
+    color: white;
+    text-align: center;
+    height: 50px;
+    width: 800px;
+    padding: 5px;
+    user-select: none;
+    margin: 0 0 70px 0;
+  }
+
+  .menu {
+    width: 40vw;
+    display: flex;
+    position: absolute;
+    font-size: 13px;
+    top: 32px;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 150px;
+  }
+
+.carousel {
+  width: 0;
+}
+
+.imgs-main {
+  text-align: center;
+  height: 350px;
+  width: 810px;
+  background: #000000;
+  position: absolute;
+  top: 160px;
+}
+
+
+.links, .link {
+  display: flex;
+  font-weight: bold;
+  font-size: 14px;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 150px;
+}
+
+.product-bars {
+  height: 120px;
+  padding: 10px;
+}
+
+.products {
+  display: flex;
+  flex-direction: row;
+  margin: 70px 0 0 0;
+  justify-content: center;
+  text-align: center;
+}
+
+.product-titles {
+  font-weight: bold;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.buttons {
+    font-size: 14px;
+    font-weight: bold;
+    color: #008080;
+} 
