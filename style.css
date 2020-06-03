@@ -1,168 +1,346 @@
 body {
-  font-family:Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-.container {
-  display:flex;
-  flex-direction: column;
-  width: 1300px;
-  margin: 0 auto;
-}
-/* .row {
-} */
-.covid-header {
-  background-color: #0078D7;
-  color:white;
-  text-align:center;
-  /* background-image: url("microsoftTeams.JPG"); */
+  font-family: "Quicksand", sans-serif;
 }
 
-.bg-img {
-  position:relative;
+a {
+  text-decoration: none;
+  color:inherit;
 }
 
-.topBar {
-  font-size:13px;
+a:hover{
+  text-decoration:underline;
 }
 
-.toprightBar {
-  display: inline-block;
-  margin-left:20px;
-  font-size:13px;
+#blue:hover{
+  text-decoration: underline;
 }
 
-ul {
-  display:inline-block;
-  bottom:20px;
-  position:relative;
-}
-
-
-li {
-  display:inline-block;
-  padding:20px;
-}
-
-
-.menu {
-  display:inline-block;
-  position:absolute;
-}
-
-
-.iconRow {
-  display:flex;
-  width: 1300px;
-  margin: 0 auto;
-  /* border: 2px solid red; */
-  height:80px;
-}
-
-
-.iconRow ul {
-    margin: 0 auto;
-    padding:30px;
-    word-spacing: 90px;
-}
-
-
-.descrip {
-    border:2px solid red;
-    margin: 0 auto;
-    width:1300px;
-    height:80px;
-    text-align:center;
-    display:flex;
-}
-
-.forWork {
-  padding: 36px 0 4px;
-}
-
-.products, .shopNow {
-  display:relative;
-  /* border: 2px solid red; */
-  text-align:center;
-  margin: 0 auto;
-  height:225px;
-}
-
-.prodDesc, .shopDesc {
-  margin: 0 auto;
-  width:1300px;
-  height:80px;
-  text-align:center;
-  border:2px solid red;
-  display:flex;
-}
-
-.gamepass {
-  display:flex;
-  justify-content: center;
-}
-
-h2 {
-  display:block;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+.covid-header:hover {
+  outline:1px dashed black;
 }
 
 picture {
   display:flex;
   justify-content:center;
+  margin-top:25px;
 }
 
 
-#test {
-    display:inline-block;
-    /* border:2px solid blue; */
-    height:80px;
-    width:120px;
-    overflow-wrap:break-word;
-    margin:25px;
-    margin-top:-10px;
+/* Top bar including microsoft logo and text */
+.container {
+  width: 1600px;
+  margin: 0 auto;
+  /* border:2px solid red; */
+  height:50px;
 }
+
+.toprightBar {
+  display: inline-block;
+  margin-left:270px;
+}
+
+.topBar {
+  bottom:15px;
+  display:inline-block;
+  position:relative;
+}
+
+.topText{
+  display:inline-block;
+  padding:15px;
+  /* border:2px solid red; */
+}
+
+.topList {
+  bottom:15px;
+  display:inline-block;
+  position:relative;
+  /* border:2px solid red; */
+}
+
+.menu {
+  display:inline-block;
+}
+
+
+/* End of Top bar including microsoft logo and text */
+
+
+/* Covid header and MS Team image */
+.covid-header {
+  background-color: #0078D7;
+  color:white;
+  text-align:center;
+  height:40px;
+  /* border:2px solid red; */
+  width:1600px;
+  margin:0 auto;
+}
+
+.covid-header p {
+  padding-top:10px;
+}
+
+.msTeamImage {
+  /* border:2px solid red; */
+  display:flex;
+  justify-content:center;
+}
+
+/* End of Covid header and MS Team image */
+
+
+/* Icon Row with subtext */
+
+.iconDiv {
+  display:flex;
+  justify-content: space-around;
+  width: 1300px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  height:80px;
+  padding-top:30px;
+}
+
+.iconRow {
+  display:flex;
+  justify-content:space-around;
+  /* border:2px solid blue; */
+  width:inherit;
+  height:inherit;
+  padding-top:50px;
+}
+
+.icons {
+  display:inline-block;
+  /* border: 2px solid red; */
+}
+
+.descrip {
+  /* border:2px solid red; */
+  margin: 0 auto;
+  width:1250px;
+  height:80px;
+  text-align:center;
+  display:flex;
+  justify-content: space-around;
+  padding-top:20px;
+}
+
+.test {
+  /* border:2px solid blue; */
+  width:135px;
+  margin-left:50px;
+  font-weight:bold;
+  margin-top:15px;
+}
+
+/* End of Icon Row */
+
+
+/* New Row of Pics + Product Descriptions */
+.products {
+  width: inherit;
+  padding-top:30px;
+  /* border:2px solid red; */
+  display:flex;
+}
+
+.products, .shopNow {
+  display:flex;
+  justify-content: space-around;
+  /* border: 2px solid red; */
+  margin: 0 auto;
+  height:225px;
+  width:1600px;
+}
+
+.prodUL {
+  margin: 0 auto;
+  /* border:2px solid red; */
+  width:inherit;
+  display: flex;
+  justify-content: space-between;
+}
+
+.prodImg{
+  display:inline-block;
+  padding-top:10px;
+}
+
+.prodDesc, .shopDesc{
+
+  display:flex;
+  justify-content: space-around;
+  /* border:2px solid red; */
+  
+}
+
+.shopDescHeader{
+  font-size:18px;
+  font-weight:bolder;
+  /* border:2px solid red; */
+}
+
+.blue {
+  color: #0067B8;
+  display:inline-block;
+  margin-right:10px;
+  /* border:2px solid red; */
+}
+
+
+.prodDesc, .shopDesc {
+  margin: 0 auto;
+  width:1605px;
+}
+
 
 #prodDesc, #shopDesc {
-  /* display:inline-block;
-  margin-left:250px;
-  margin-right:20px; */
+  width:305px;
   display:flex;
-  flex-flow:column;
-  overflow-wrap: break-word;
-  border: 2px solid red;
-}
-
-#textInBanner {
-  position:relative;
-  z-index: 1000;
-  color:red;
-  /* top:450px;
-  left:350px; */
-  font-size:3em;
+  flex-direction:column;
+  justify-content:space-evenly;
   /* border:2px solid red; */
 }
 
-#teams {
+/* END OF FIRST & SECOND ROW OF PRODUCTS */
+
+/* For work div */
+
+.forWork {
+  padding: 10px 15px 0px 0px;
+  /* border:2px solid red; */
+  width:1500px;
+  height:50px;
+  margin: 0 auto;
+  font-size:15px;
+}
+
+/* End of for work div */
+
+/* Socials */
+
+.socials {
+  padding-top:20px;
+  height:100px;
+  width:1600px;
+  margin: 0 auto;
+  display:flex;
+  justify-content: flex-start;
+}
+
+.follow {
+
+  display:inline-block;
+  text-align:center;
+  margin-top:25px;
+}
+
+.socialList {
+  display:flex;
+  justify-content: flex-start;
+  margin-right:30px;
+  width:100px;
+}
+
+.bottomText{
+  display: inline-block;
+  margin-right:10px;
+  width:100px;
+}
+
+/* END OF SOCIALS */
+
+/* FOOTER */
+
+.tester {
+  display:flex;
+  /* border: 2px solid red; */
+  width:1600px;
+  padding:20px;
+}
+
+
+.footer {
+  display:flex;
+  justify-content: center;
+  background-color:rgb(229,229,234);
+}
+
+
+.others {
+  /* border:2px solid red; */
+  margin-top:20px;
+  margin-left:200px;
+  margin: 0 auto;
+}
+
+
+nav {
+  background-color:rgb(229,229,234);
+  height:324px;
+  width:100%;
+}
+
+li {
+  list-style: none;
+}
+
+.others li {
+  padding-top:10px;
+}
+
+/* END OF FOOTER */
+
+
+/* FLOATING DIVS ON IMAGES */
+.floatingDiv{
   position:absolute;
-  z-index: 1000;
+  right:34%;
+  top:35%;
   color:white;
-  top:550px;
+  font-size:50px;
+  /* border:2px solid white; */
+  width:800px;
+  text-align: center;
+  height:100px;
 }
 
-#xboxGames {
-
+.smallerText {
+  position:absolute;
+  font-size:20px;
+  color:white;
+  top:41%;
+  right:38%;
 }
 
-#tester {
-  position: absolute;
+.button {
+  font-weight:bolder;
+  position:absolute;
+  background-color: white;
+  font-family: "Quicksand";
+  height:30px;
+  top:45%;
+  border:3px solid white;
+  right:48%;
+  width:150px;
+  cursor:pointer;
+}
+
+.xboxDiv {
+  position:absolute;
+  width:400px;
+  font-size: 46px;
+  left:22%;
+  top:1550px;
+}
+
+.xboxText {
+  position:absolute;
   /* border:2px solid red; */
-  height:400px;
-  max-width: 520px;
-  top: 80%;
-  left:25%;
-  transform: translateY(50%);
-  color:purple;
+  width:550px;
+  font-size:16px;
+  left:22%;
+  top:1690px;
 }
-
