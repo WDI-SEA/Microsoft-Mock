@@ -1,0 +1,52 @@
+body {
+    color: #000;
+    background-size: cover;
+    background-color: white;
+    margin: 0 auto; 
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif Arial, Helvetica, sans-serif;
+    min-width: 320px;
+    display: block;
+    width: 90%;
+  }
+
+.header {
+  display: block;
+  color: #000;
+  height: 54px;
+  text-size-adjust: 100%;
+  width: 1244px;
+  min-height: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+.leftside {
+  display: inline-block;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.logo a{
+  position: relative;
+  outline: 2px solid transparent;
+  border: 0;
+  display: inline-block;
+}
+
+
+
+
+
+
+
+/* mobile mode is improving 
+  @media (max-width: 500px; min-width: 860px) {
+    . logo {
+      padding: 16px 6px 16px 10px;
+      float: left;
+      height: 100%;
+      margin-top: 1px;
+      width: 137px;
+    }
+*/ 
