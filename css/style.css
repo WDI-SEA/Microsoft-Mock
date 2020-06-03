@@ -8,25 +8,24 @@
     
 }
 .menu-bar {
- display: inline;
- border: 1px solid black;
+ display: flex;
  align-content: center;
  
 }
-.microsoft-icon{
-    width: 80px;
-    height: auto;
-    display: flex;
-
-    border: 2px solid green;
+.logo{
+    width: 90px;
+    height: 50px;
+    position: absolute;
 }
 .links {
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    border: 2px solid red;
+    padding-left: 80px;
     justify-content: space-between;
     width: 500px;
+    height: 50px;
+    margin-left: 20px;
+    font-size: 15px;
 }
 
 .covid-bar {
@@ -45,22 +44,24 @@ img {
     width: 100%;
 }
 .middle-menu {
-    padding: 25px;
-    display: inline-block;
+    display: flex;
     justify-content: space-between;
+    align-content: center;
+    max-width: 500px;
     
 }
 .img-links{
     display: flex;
     flex-direction: row;
-    width: 50px;
-    height: auto;
+    margin-top: 5em;
+    width: 40px;
+    height: 40px;
     margin-left: 10em;
-    
+    font-weight: bold;
+    padding-bottom: 50px;
 }
-#link-names {
-display: flex;
-font-weight: bold;
-text-align: match-parent;
-border: 2px  solid pink;
+.bottom-banner {
+    padding-top: 50px;
+    width: inherit;
 }
+
