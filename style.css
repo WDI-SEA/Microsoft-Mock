@@ -17,15 +17,17 @@ body {
 
 .icon-container {
     display: flex;
-    flex-direction: row;
     width: 1180px;
-    margin: 0 auto;
+    margin: 5vw;
+    
 }
 
 .icon-img {
-    justify-content: space-evenly;
+    display: flex;
+    justify-content: center;
     padding: 20px 20px 20px 100px;
     text-align: center;
+    margin: 5vw;
 }
 
 .icon-container p {
@@ -37,21 +39,20 @@ body {
 }
 
 .first-row{
-    display: grid;
-    grid-auto-rows: auto;
+    display: flex;
     width: 1180px;
     margin: 0 auto;
 }
 
-.first-row.img{    
+.first-row.img{   
+    flex-direction: row; 
     justify-content: space-evenly;
-    grid-auto-rows: auto;
     padding: 20px;
 }
 
 .for-work {
-    display: grid;
-    margin: 0 auto;
+    display: flex;
+    margin: 5vw;    
     flex-direction: row;
     width: 1180px;
 }
@@ -63,6 +64,7 @@ body {
 
 span {
     font-size: 13px;
+    justify-content: space-between;
 }
 
 .span1 {
@@ -71,4 +73,9 @@ span {
 
 .span2 {
     text-align: right;
+}
+
+.second-banner-image {
+    width: 1180;
+    height: 440;
 }
