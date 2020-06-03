@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+}
+
+.container {
+  max-width: 1600px;
+  height: auto;
+  margin: 0 auto;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.nav {
+  display: flex;
+  padding: 16px 6px 16px 10px;
+  justify-content: space-between;
+}
+
+#logo {
+  width: 100px;
+  height: 23px;
+}
+
+.covid {
+  background-color: #0067b8;
+  justify-content: center;
+  color: #ffffff;
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.carousel {
+  position: relative;
+  display: flex;
+  color: white;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.carousel h1 {
+  font-size: 40px;
+}
+
+.carousel p {
+  font-size: 15px;
+}
+
+.carousel button {
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.carousel-caption {
+  position: absolute;
+  padding-bottom: 70px;
+}
+
+.nav-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-2 li {
+  display: inline;
+  margin-right: 130px;
+}
+
+.nav-2 ul {
+  margin-left: 90px;
+}
+
+.nav-2-captions {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-2-captions div {
+  display: inline;
+  margin-right: 90px;
+}
