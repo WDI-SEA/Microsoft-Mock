@@ -1,0 +1,116 @@
+.container {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    width: 1250px;
+    text-align: center;
+    font-size: .85em;
+}
+
+.navbar {
+    justify-content: flex-start;
+    display: flex;
+}
+
+p {
+    background-color: #3737f7;
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.micrologo {
+    height: auto;
+    width: auto;
+    max-height: 100px;
+    max-width: 120px;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.inner-nav {
+    display: inline-block;
+    justify-content: flex-start;
+}
+
+.right {
+    margin-left: 480px;
+    justify-content: flex-end;
+    display: flex;
+    padding-top: 15px;
+}
+
+.upper-symbol {
+    margin-left: 0px;
+    margin-right: 15px;
+}
+
+.magnifying {
+    height: 15px;
+    width: 15px;
+    margin-left: 15px;
+}
+
+.image-placeholder {
+    margin-bottom: 20px;
+}
+
+.words {
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+.account {
+    height: 30px;
+    width: 30px;
+}
+
+.shopping-cart {
+    height: 20px;
+    width: 20px;
+}
+
+.symbols {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.words {
+    display: inline-block;
+}
+
+.lower-bar {
+    justify-content: space-around;
+}
+
+.covid {
+    background-color: #3737f7;
+    height: 40px;
+    margin-top: 10px;
+}
+
+.options {
+    padding-right: 15px;
+    padding-top: 17px;
+}
+
+.logo {
+    justify-content: flex-start;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.lower-images {
+    display: flex;
+}
+
+.inner-lower-images {
+    display: inline-block;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
