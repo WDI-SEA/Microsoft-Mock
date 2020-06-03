@@ -1,13 +1,9 @@
 .container {
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
-    position: relative;
-}
-
-.row {
-    width: 90%px;
+    
 }
 
 .covid-msg {
@@ -16,44 +12,85 @@
     text-align: center;
     font-size: 15px;
 }
-
-ul {
+/* ul {
     display: inline-block;
     padding-bottom: 10px;
     bottom: 10px;
     position: relative;
-}
+} */
 
 li {
     display: inline;
     padding: 10px;
 }
 
-.menu {
-    display: inline-block;
-    padding-bottom: 10px;
-    position: absolute;
+h3 {
+    font-weight: bold;
+    font-size: 23px;
 }
 
-.navbar {
-    padding: 5px;
-    font-size: 15px;
+a {
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
     
 }
 
-/* .rightMenu {
-    display: inline-flex;
-    align-content: flex-end;
+.leftMenu img{
+    display: inline-block;
+  }
 
-} */
+.navbar {
+    padding: 5px;
+    font-size: 15px;  
+}
+.rightMenu {
+    align-self: flex-end;
+}
 
-.bg-img img {
-    display:relative;
-    width: auto;
+
+.bg-img {
+    display: flex;
+    align-self: center;
 }
 
 .small-imgs {
-    display: inline-block;
-    padding-bottom: 10px;
-    position: absolute;
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.small-imgs p {
+    text-decoration: solid;
+    justify-content: flex-start;
+
+    margin: 0;
+    text-align: center;
+}
+
+.bottomBoxes {
+    display: flex;
+    padding-top: 50px;
+    justify-content: space-between;
+    text-align: left;
+    margin: 0;
+}
+
+.bottomBoxes img {
+    width: 95%
+}
+
+.imgText {
+    margin:0;
+    padding:0;
+    float: up;
+    width: 95%;
+}
+
+.xbox {
+    padding-top: 50px;
 }
