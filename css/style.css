@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.menu-bar {
+ display: inline;
+ border: 1px solid black;
+ align-content: center;
+ 
+}
+.microsoft-icon{
+    width: 80px;
+    height: auto;
+    display: flex;
+
+    border: 2px solid green;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: 2px solid red;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.covid-bar {
+ display: block;
+ background-color: #0067B8;
+ color: white;
+ text-align: center;
+ font-size: 13px;
+
+   
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.middle-menu {
+    padding: 25px;
+    display: inline-block;
+    justify-content: space-between;
+    
+}
+.img-links{
+    display: flex;
+    flex-direction: row;
+    width: 50px;
+    height: auto;
+    margin-left: 10em;
+    
+}
+#link-names {
+display: flex;
+font-weight: bold;
+text-align: match-parent;
+border: 2px  solid pink;
+}
