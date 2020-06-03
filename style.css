@@ -1,0 +1,116 @@
+.container {
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header  {
+    padding: 0;
+    margin: 0 160px 0 160px;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+
+.leftList li {
+    list-style: none;
+    display: inline-flex;
+    margin: 10px;
+    justify-content: flex-start;
+}
+
+.rightList {
+    margin-left: 700px;
+}
+
+.rightList li {
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align: right;
+    margin: 10px;
+}
+
+
+
+.Covid-19 {
+    background-color: #0067b8;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 13px;
+    justify-content: center;
+    margin: 0 150px 0 153px;
+}
+
+.carousel {
+    justify-content: center;
+    align-self: center;
+}
+
+.buyOptions {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px 50px 0px;
+    text-align: center;
+
+}
+
+.infoRow {
+   display: flex;
+   flex-wrap: wrap;
+   font-size: 13px;
+   justify-content: space-between;
+   padding-bottom: 40px;
+   margin: 0 150px 0 150px;
+}
+
+.test {
+    flex-wrap: wrap;
+    width: 350px;
+}
+
+.bold {
+font-weight: bold;
+font-size: 18px;
+}
+
+.blue {
+    color: #0078d7;
+    font-weight: bold;
+}
+
+.forWorkTitle {
+    display: flex;
+    margin: 50px 0 20px 0;
+    font-weight: bold;
+    font-size: 22px;
+    padding-left: 150px;
+}
+
+.socialMedia {
+    display: flex;
+    padding: 20px 0 20px 0;
+    align-items: center;
+
+}
+.giveUsALike {
+    color: grey;
+    padding-left: 150px; 
+}
+
+.socialMediaIcon {
+    height: 30px;
+    width: 30px;
+    padding: 0 5px 0 5px;
+}
+
+
+
