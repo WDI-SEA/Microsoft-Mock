@@ -1,8 +1,15 @@
+@font-face {
+    font-family:"MWF-MDL2";
+    src:url("mwfmdl2-v3.54.woff2") format("woff2");
+}
+
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body {}
+body {
+    margin: 0;
+}
 main {}
 
 
@@ -10,12 +17,16 @@ nav {
     /* background-color: green; */
 }
 ul {
+    /* border: 1px solid red; */
     display: flex;
-    list-style-type: none;
+    list-style-type: none;  
+    justify-content: space-between;
 }
 li {
-    display: block;
+    /* display: block; */
     font-size: 13px;
+    margin-left: 0;
+    padding: 0 10px;
 }
 
 
@@ -24,40 +35,83 @@ li {
 *****************/
 .main-nav {
     /* display: inline-block; */
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     justify-content: space-between;
+    margin: 0 153px;
 }
 .test {
     display: flex;
 }
+.microsoft-logo {
+    /* border: 1px solid red; */
+    position: relative;
+    
+}
 .microsoft-logo img {
-    background-color: blue;
-    width: 130px;
+    /* background-color: blue; */
+    position: relative;
+    width: 100px;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .c-main-nav {
-    background-color: blue;
+    /* background-color: blue; */
 }
 .cc-main-nav{
-    background-color: blue;
+    /* background-color: blue; */
+    /* position: relative; */
+}
+.nav-two {
+    /* border: 2px solid pink; */
     position: relative;
+    margin-top: 9px;
+    /* top: 50%;
+    transform: translateY(-50%); */
 }
-.search-icon {
-    height: 35px;
-    position: absolute;    
+.nav-two li {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 20px;
 }
-.cart-icon {
-    height: 35px;
+.all-microsoft::after {
+    font-family: "MWF-MDL2";
+    content: "";
     position: absolute;
+    font-size: 8px;
+    display: inline-block;
+    font-weight: 700;
+    padding-left: 8px;
 }
+
+.search-icon::after {   
+    font-family: "MWF-MDL2";
+    content: "";
+}
+
+.cart-icon::after {
+    font-family: "MWF-MDL2";
+    content: "";
+}
+
+.sign-in {
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+
 .account-icon {
     height: 30px;
-    position: absolute;
 }
 .covid {
     text-align: center;
     color: white;
     background-color: #0858aa;
+    font-size: 13px;
+    margin: 0 153px;
+    padding: 12px 0;
 }
 
 .main-display {
