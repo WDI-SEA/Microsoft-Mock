@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+    width: 1400px;
+    /* margin: 0; */
+} 
+
+ul {
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+    
+}
+
+li {
+    display: inline-block;
+    padding-right: 10px;
+    
+}
+
+.toprightimg {
+    display: flex;
+    flex-direction: row;
+}
+
+.covid-header {
+    justify-content: center;
+    display: flex;
+     margin: 0 auto;
+    text-align: center;
+    background-color: #0078d7;
+    color: white;
+    width: 1600px;
+}
+
+.box1 {
+    text-align: center;
+
+}
+
+.box2 {
+    flex: 0;
+}
+
+
+.img1 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.img2 {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    
+
+}
+.img3 {
+    display: flex;
+    padding-top: 100px;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+}
