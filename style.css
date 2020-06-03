@@ -5,12 +5,25 @@
   margin: 0 auto;
 }
 
+
+.nav{
+  display: flex;
+  height: 50px;
+  width: 97%;
+  align-items: center;
+}
+
+.nav-bar {
+  margin: 0;
+  justify-content: space-between;
+  width: 800px;
+}
+
 .bg-img {
   width: 1150px;
-  height: 400px;
+  
 }
-.row {
-}
+
 
 .covid-header {
   background-color: #0078d7;
@@ -35,11 +48,28 @@ li {
 
 .shopping-links {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   float: center;
+  width: 1000px;
+  margin: auto;
 }
 
-.image {
-
+.microsoft-emblem {
+  width: 140px;
+  height: 46px;
+  display: inline-flex;
+  align-items: center;
 }
+ .image {
+   align-items: center;
+   width: 100px;
+   font-size: 15px;
+ }
+
+ section {
+   justify-content: center;
+ }
+
+ image {
+   margin-left: 20px;
+ }
