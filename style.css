@@ -1,0 +1,55 @@
+body {
+    margin: 0 auto;
+    width: 1300px;
+
+}
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+li {
+    display: inline;
+    padding-left: 15px;
+}
+p {
+    position: absolute;
+    text-align: center;
+    margin-left: 330px;
+    padding-top: -16px;
+}
+.main-img {
+    position: relative;
+    align-items: center;
+    display: flex;
+    width: 1000px
+}
+.header {
+    padding: 15px 0px 20px 0px;
+}
+.header-left {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-self: start;
+    margin-inline-end: 20em;
+}
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.covid-banner {
+    height: 35px;
+    width: 1281px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    justify-content: center;
+    align-self: center;
+    position: relative;
+}
