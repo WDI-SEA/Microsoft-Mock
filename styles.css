@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+  
+}
+  
+header { 
+    display: inline-block;
+}
+
+main {
+    display: flex;
+    margin: 0 auto;
+    width: 1450px;
+}
+
+/* blue links for mid-sized images */    
+h4 {
+    color: blue;
+}
+
+/* use microsoft font for search, signin and cart characters */
+h6 {
+    font-family: ;
+}
+
+#mainPage {
+    width: 1400px;
+    }
+    
+#ms-logo {
+    width: 100px;
+    margin: 10px;
+}
+    
+ul {
+    display: inline-block;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+    color: #111111;
+    font-size: 0.8em;
+}
+
+#menu {
+    padding: 1px;
+    display: inline-block;
+    position: absolute;
+}
+
+/* emoji place holders for proper font characters */
+#right-header-menu {
+    padding: 1px;
+    display: inline-block;
+    position: absolute;
+    right: 200px;
+}
+
+/* top big image here*/
+.top {
+    width: 1400px;
+    height: 550px;
+    background-image: url("images/top.JPG");
+}
+ 
+/* middle big image here*/
+.middle {
+    width: 1400px;
+    height: 550px;
+    background-image: url("images/middle.JPG");
+}
+
+/* bottom big image here */
+.bottom {
+    width: 1400px;
+    height: 550px;
+    background-image: url("images/bottom.JPG");
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#covid {
+    width: 1400px;
+    height: 50px;
+    background: #0067B8;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-top: 20px;
+    
+}
+    
+.icons {
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    width: 200px;
+    object-fit: cover;
+}
+
+/* get sizing of images right */
+img {
+    max-width: 150%;
+    max-height: auto;
+}
+
+/* visualizing of how divs are interacting, for debugging only */
+div {
+    border: 2px dashed orange;
+}
+
+#medium-topImages {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-column-gap: 10px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+#medium-bottomImages {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-column-gap: 10px;
+}
