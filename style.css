@@ -1,0 +1,183 @@
+.container {
+    max-width: 1200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+}
+
+.rowOne {
+    display: flex;
+    justify-content: space-around;  
+   
+}
+#symbol {
+    height: 30px;
+    padding-top: 10px;
+}
+
+h3 {
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: grey;
+
+}
+
+.topPanelWords {
+    display: inline-flex;
+    flex-direction: row;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: black;
+    font-size: 12px;
+    padding-right: 150px;
+}
+
+#allMicrosoft {
+    padding-left: 100px; 
+    padding-right: 50px;
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#spyglass {
+    width: 30px; 
+    height: 30px; 
+}
+
+#shoppingCart {
+    width: 30px; 
+    height: 30px;
+}
+
+#signUp {
+    flex-direction: row;
+    padding-left: 15px;
+    width: 35px; 
+    height: 35px;
+}
+
+.rowTwo {  
+    padding-top: 18px;
+    padding-bottom: 18px; 
+    width: 1200px;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    color: white; 
+    background-color: #0078d7;
+    text-align: center; 
+    align-self: center;
+}
+
+.rowThree {
+    display: flex; 
+    height: 500px;
+    width: 1200px;
+}
+
+.rowFour {
+    display: flex;
+    padding-top: 70px;
+    justify-content: center; 
+    border-left: 30px; 
+    border-right: 30px;
+    text-align: center;
+}
+.microsoft365 {
+    padding-left: 50px;
+}
+
+.shopbusiness {
+    padding-right: 50px;
+}
+
+.belowpics {
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: flex; 
+    height: 50px;
+    width: 1200px;
+    font-weight: bolder;
+    font-size: 14px;
+    width: 120px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.rectangle {
+    padding: 0px 8px;
+    height: 157px;
+    width: 295px; 
+}
+
+.rowFive {
+    display: flex;
+    height: 350px;
+    width: 1202px; 
+    justify-content: center;
+}
+
+.oneFourth {
+    padding: 0px 12px;
+}
+
+.rectangletitle {
+   font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.textbelow {
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+}
+
+.bluefont {
+    color: #0067b8;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px; 
+    font-weight: bolder;
+}
+
+#swirl {
+    height: 157px;
+}
+
+.rowSeven {
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.rowEight {
+    display: flex;
+    height: 500px;
+    width: 1202px; 
+    justify-content: center;
+}
+
+.rowNine {
+    display: flex; 
+    height: 500px;
+    width: 1200px;
+}
+.RowTen {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+.socialmedia {
+    position: relative;
+    margin-left: 15px; 
+    margin-right: 15px;
+    width: 28px;
+    height: 28px;
+}
+.lastwords {
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px; 
+    color: grey;
+}
+
+#facebook {
+    margin-left: 15px; 
+    margin-right: 0px
+}
