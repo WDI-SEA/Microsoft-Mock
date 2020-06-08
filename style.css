@@ -1,0 +1,222 @@
+/* 
+There is a serious mismatch between class names here & on html file.
+Html file mostly has "col-X" while this file mostly has "colX".
+But I worked out the layout unaware of this mismatch.
+I've already spent too long on this project.
+And I don't want to screw it up by fixing that mismatch.
+*/
+
+.row1 {
+    grid-area: nav_bar;
+}
+
+.row2 {
+    grid-area: main_ad;
+}
+
+.row3 {
+    grid-area: footer;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 60px 1fr 180px;
+    grid-template-areas: 
+        "nav_bar nav_bar nav_bar nav_bar nav_bar nav_bar nav_bar nav_bar"
+        "main_ad main_ad main_ad main_ad main_ad main_ad main_ad main_ad"
+        "footer footer footer footer footer footer footer footer";
+}
+
+
+body {
+    background-image: "./background.jpg";
+    font-family: "Segoi UI", "Helvetica", sans-serif;
+}
+nav {
+    width: 3200px;
+    height: 70px;
+    margin: 0 auto;
+    margin-bottom: 2px;
+}
+
+h2 {
+    text-align: center;
+    padding: 230px 0 0 0;
+    margin-bottom: 0;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+form {
+    display: inline-block;
+}
+
+.row1 > .col1 {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+
+.row1 > .col-2 {
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+}
+
+.row1 > .col-6 {
+    /*
+    grid-column-start: 6;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-area: 1 / 2 / span 3 / span 1;
+    */
+}
+
+.row2 {
+    grid-column-start: 1;
+    grid-column-end: 9;
+    grid-row-start: 2;
+}
+
+.row3 > .col1 {
+    grid-column-start: 1;
+    grid-row-start: 3;
+}
+
+.row3 > .col2 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.col3 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.col4 {
+    grid-column-start: 4;
+    grid-row-start: 3;
+}
+
+.col5 {
+    grid-column-start: 5;
+    grid-row-start: 3;
+}
+
+.row3 > .col6 {
+    grid-column-start: 6;
+    grid-row-start: 3;
+}
+
+.col7 {
+    grid-column-start: 7;
+    grid-row-start: 3;
+}
+
+.col8 {
+    grid-column-start: 8;
+}
+
+.nav_menu {
+    display: inline-block;
+    font-size: 13px;
+}
+
+.nav_link {
+    padding: 16px 8px 10px;
+    height: 10px;
+    display: inline-block;
+    margin-top: 1px;
+}
+
+.covid {
+    margin: 0 auto;
+    width: 1362px;
+    height: 41px;
+}
+
+.warning {
+    height: 40px;
+    background-color: rgb(8, 103, 184);
+}
+
+#top_corner {
+    height: 24px;
+}
+
+.nav_icon {
+    height: 15px;
+    padding: 0 5px;
+}
+
+.big_nav_icon {
+    height: 25px;
+    padding 0 5px;
+}
+
+#covid_warning {
+    text-align: center;
+    padding: 11px 0 10px;
+    color: white;
+    font-size: 12px;
+}
+
+/*#main_photo {
+    height: 480px;
+    position: absolute;
+    z-index: -1;
+    margin: 0 auto;
+    text-align: center;
+}*/
+
+#trade_upgrade {
+    margin: 0 auto;
+    background-image: url("./computers.jpg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 416px;
+}
+
+.row3 {
+    padding-top: 60px;
+}
+
+#subheader {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#shop_button {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    background-color: #000000;
+    color: #e8e8e8;
+    border: 0;
+    width: 120px;
+    height: 40px;
+
+}
+
+#lower_nav > div {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 800;
+    width: 133px;
+    text-align: center;
+}
+
+.row3 > div {
+    position: relative;
+    left: 50px;
+}
+
+#center_nav {
+    width: 700px;
+}
+
+#right_nav {
+    padding-left: 120px;
+}
