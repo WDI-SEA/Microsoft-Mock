@@ -1,0 +1,46 @@
+#logo {
+    float: left;
+    margin: 10px;
+}
+
+#right-nav {
+    float: right;
+    margin: 10px;
+}
+
+#left-nav {
+    display: inline-block;
+    margin: 10px;
+}
+
+#covid {
+    background:#4278f5;
+    margin: 10px;
+    height: 30px;
+    text: white;
+}
+
+#carosel1 img {
+    width: 100%;
+    height: auto;
+}
+
+#icon-links p {
+    display: inline-block;
+    padding: 10px;
+    margin: 21px;
+}
+
+.inline-widge {
+    border: 1px solid black;
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    height: 200px;
+    vertical-align: text-bottom;
+}
+
+
+.inline-widge * {
+    padding: 5px;
+}
