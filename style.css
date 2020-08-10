@@ -41,7 +41,7 @@ li {
   text-align: center;
   background-color: #0078d7;
   color: white;
-  width: 1600px;
+  width: 1200px;
 }
 
 .box1 {
@@ -78,3 +78,8 @@ li {
   justify-content: space-between;
   justify-content: space-around;
 } 
+
+#carousel {
+  height: 500px;
+  width: 1200px
+}
