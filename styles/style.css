@@ -1,0 +1,30 @@
+li {
+    display: inline;
+    list-style: none;
+    margin: 30px 10px;
+}
+
+#ms-logo {
+    width: 100px;
+}
+
+a {
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    text-decoration: none;
+    color: #262626;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.footer {
+    text-align: center;
+}
+
+p {
+    margin: 10px 5px;
+    font-weight: bold;
+}
