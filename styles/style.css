@@ -1,0 +1,10 @@
+.nav-item {
+  flex: 3;
+  display: flex;
+  align-self: center;
+}
+
+#microsoftLogo {
+  display: flex;
+  align-self: center;
+}
