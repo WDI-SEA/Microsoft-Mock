@@ -7,8 +7,12 @@
 }
 
 a.nav-link {
-    color: black;
     padding: 12px;
+    color: black;
+}
+
+a.nav-link:hover {
+    text-decoration: underline;
 }
 
 a.six-cell-link {
@@ -126,4 +130,43 @@ li.social-link {
     float: left;
     display: block;
     padding: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(242,242,242);
+    margin-top: 140px;
+    position: relative;
+}
+
+ul.footer-box {
+    list-style-type: none;
+    padding: 20px;
+    font-size: 10px;
+    color: rgb(97,97,97)
+}
+
+.toe-box {
+    display: inline;
+    font-size: 10px;
+    color: rgb(97,97,97)
+}
+
+h6 {
+    font-weight:bold
+}
+
+li.footer-text {
+    padding: 10px 10px 10px 0;
+}
+
+li.toe-text {
+    display: inline;
+    float: right;
+    padding: 10px;
+    margin-right: 40px;
+}
+
+#lang {
+    float:left
 }
