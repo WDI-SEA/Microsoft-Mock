@@ -1,0 +1,36 @@
+body{
+    margin: 0 30px;
+
+}
+
+.nav-item {
+    flex: 3
+  }
+.nav-img{
+    width: 100px;
+}
+
+
+.img-under {
+    position: relative;
+}
+
+.img-over {
+    position: absolute;
+    bottom: 100px;
+    width: 400px;
+    left: 50%;
+}
+
+.text-over {
+    position: absolute;
+    padding-left: 50px;
+    bottom: 50px;
+    width: 400px;
+    right: 50%;
+}
+
+.banner {
+    text-align: center;
+    background-color: lightgray;
+}
