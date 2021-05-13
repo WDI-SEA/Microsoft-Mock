@@ -7,7 +7,11 @@
     <title>Microsoft - Home Page</title>
     <link rel="stylesheet" href="/styles/style.css">
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
-
+    <style>
+        a{
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <nav>
@@ -15,9 +19,9 @@
             <div class="flex justify-between">
                 <div class="flex">
                     <!-- logo -->
-                    <div class="mr-4">
+                    <a class="mr-4">
                         <img id ="microsoftLogo" class="object-scale-down h-15 w-40 p-3" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" alt="...">
-                    </div>
+                    </a>
                     
                     <!-- primary nav -->
                     <div class="hidden lg:flex items-center space-x-3 text-sm">
@@ -33,9 +37,9 @@
                 </div>
                 <!-- secondary nav      -->
                 <div class="hidden lg:flex items-center text-sm space-x-4">
-                    <div class="hover:underline">
+                    <a class="hover:underline">
                         All Microsoft
-                    </div>
+                    </a>
                     <a class="flex hover:underline" href="#">
                         <span>Search</span>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
