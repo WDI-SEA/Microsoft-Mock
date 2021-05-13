@@ -54,8 +54,9 @@ ul {
         width: 50px;
 }
 .main-nav .browserlogo a:hover {
-        border-bottom: 2px solid rgb(59, 56, 56);
+    border-bottom: 2px solid rgb(59, 56, 56);
 }
+
 header {
     background-image: url(images.jpeg);
     background-color: rgb(241, 240, 240);
@@ -79,13 +80,24 @@ button {
     border: 0;
     font-weight: bold;
     padding: 10px 20px;
-    background-color: rgb(36, 35, 35);
+    background-color: rgb(70, 70, 70);
     color: white;
-   font-size: 15px; 
+    font-size: 15px; 
 }
 
 button:hover {
-    opacity: 0.9;
+    opacity: 0.8;
+}
+
+h5 { 
+    text-align: center;
+    justify-content: center;
+    padding: 0 13px;   
+    cursor: pointer; 
+}
+
+h5 a:hover {
+    border-bottom: 2px solid rgb(59, 56, 56);
 }
 
 .bottom-nav {
