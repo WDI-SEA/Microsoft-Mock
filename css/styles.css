@@ -1,66 +1,76 @@
 
+body {
+  font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #262626;
+  font-size: .90rem;
+  font-weight: 300;
+}
 
 li {
     display: inline;
     margin: 13px;
+    padding-top: 40px;
 }
 
-.three {
-    text-align: right;
+a {
+  text-decoration: none;
+  color: black;
 }
 
-img {
-    width: 1775px;
-    height: 600px;
+li:hover {
+  text-decoration: underline;
 }
 
-/* 
-.navItem {
-    display: flex;
+#mainPic {
+    width: 1780px;
+    height: auto;
+}
 
-} */
+#logo {
+  width: 140px;
+}
 
+.bottomBar {
+  display:inline-block;
+  font-size: 1rem;
+  font-weight: 800;
+  margin: 70px 45px 0px 45px;
+}
 
 .container {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    margin-left: 155px;
-    gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+    margin-left: 160px;
+    grid-auto-rows: minmax(55px, 1fr);
   }
 
   .one {
     grid-column: 1 / 1;
     grid-row: 1;
-    background-color: teal;
+    margin-top: 6px;
   }
 
   .two {
     grid-column: 2 / 9;
     grid-row: 1;
-    background-color: aqua;
+    padding-top: 16px;
   }
 
   .three {
     grid-column: 9 / 12;
     grid-row: 1;
-    background-color: lightskyblue;
+    text-align: right;
   }
 
   .four {
     grid-column: 1 / 12;
-    grid-row: 2 / 7;
-    background-color: chartreuse;
+    grid-row: 2 / 14;
   }
 
   .five {
     grid-column: 1 / 12;
-    grid-row: 7 / 9;
-    background-color: coral;
+    grid-row: 14 / 18;
+    text-align: center;
   }
 
-  .six {
-    grid-column: 1 / 12;
-    grid-row: 9 / 12;
-    background-color: cornflowerblue;
-  }
+  
