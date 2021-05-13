@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" class="text-gray-900 leading-tight">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        /* border: 1px solid black; */
+        /* font-family: 'Helvetica Neue', sans-serif; */
+      }
+
+      .container {
+        margin: 0 auto;
+        width: 1193px;
+      }
+
+      .header {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 48px 333px 1fr 110px 150px;
+        /* border: 1px solid black; */
+      }
+
+      .menu {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 150px 100px 1fr 1fr 1fr 45px 75px 75px 160px 1fr 55px 55px 55px;
+        /* border: 1px solid black; */
+      }
+
+      .body {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .foot {
+        width: 85%;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        margin: 0 auto;
+      }
+
+      .MSlogo {
+        height: 35px;
+        width: 35px;
+      }
+    </style>
+    <title>Microsoft Mock-Up</title>
+  </head>
+  <body class="font-sans text-gray-800">
+    <div class="container">
+      <div class="header mt-4 mb-4 pb-4 border-b-4">
+        <div>
+          <img
+            src="images/newspaper.png"
+            alt="Breaking news from around the world"
+          />
+        </div>
+        <div class="items-center ml-4 text-base">
+          <p class="text-base">Breaking news from around the world</p>
+          <p class="text-xs">Get the Microsoft News extension for Chrome</p>
+        </div>
+        <div></div>
+        <div class="text-sm mt-4">
+          <a href="#" class="hover:underline">No Thanks</a>
+        </div>
+        <div class="">
+        <button
+            class="grid justify-items-center text-s bg-red-500 p-3 text-white">
+            Add it now
+          </button>
+        </div>
+      </div>
+      <div class="menu align-middle text-xs">
+        <div class="text-s font-bold inline-flex align-middle">
+          <img class="MSlogo" src="images/MS.png" />
+          <span class="text-gray-800 text-lg pt-1">Microsoft</span>
+        </div>
+        <div class="text-center hover:underline pt-3">Deals</div>
+        <div class="text-center hover:underline pt-3">Microsoft 365</div>
+        <div class="text-center hover:underline pt-3">Office</div>
+        <div class="text-center hover:underline pt-3">Windows</div>
+        <div class="text-center hover:underline pt-3">Surface</div>
+        <div class="text-center hover:underline pt-3">Xbox</div>
+        <div class="text-center hover:underline pt-3">Support</div>
+        <div class="p-7"></div>
+        <div class="text-center hover:underline pt-3">All Microsoft <span class="text-gray-400">></div>
+        <div class="pl-2 pt-1">
+          <a href="#" class="hover:underline"><img src="images/magGlass.png" /></a>
+        </div>
+        <div class="pl-2 pt-1">
+          <a href="#" class="hover:underline"><img src="images/cart.png" /></a>
+        </div>
+        <div class="pl-2 pt-1">
+          <a href="#" class="hover:underline"><img src="images/circle.png" /></a>
+        </div>
+      </div>
+      <div class="body">
+        <div><img src="images/heroL.png"/></div>
+        <div class="bg-gray-100">
+          <h1 class="font-extrabold text-lg text-left pl-20 pt-32 pb-3">Surface Deals</h1>
+          <p class=" text-xs text-left pl-20 pr-20">Select Surface devices are Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium quod laboriosam quia in odit officiis sapiente veritatis, inventore omnis animi harum maxime error, incidunt perferendis veniam tenetur consectetur, nemo nesciunt.</p>
+          <p class="pl-20 pt-5"><button class="font-bold text-sm text-white text-left  p-3 bg-black">Shop now ></button> <span class="font-bold pl-14"><a href="#" class="hover:underline">Book an appointment ></a></span></p>
+        </div>
+      </div>
+      <div class="foot">
+        <div class="mt-12"><img class="pl-20" src="images/BW-MS-logo.png">
+          <div class="text-xs font-bold ml-3 pt-1 text-center"><a href="#" class="hover:underline">Choose your <br>Microsoft 365</a></div>
+        </div>
+        <div class="mt-12"><img class="pl-20" src="images/surface-icon.webp">
+          <div class="text-xs font-bold ml-3 pt-1 text-center"><a href="#" class="hover:underline">Shop Surface<br> devices</a></div>
+        </div>
+        <div class="mt-12"><img class="pl-20" src="images/xbox-icon.webp">
+          <div class="text-xs font-bold ml-3 pt-1 text-center"><a href="#" class="hover:underline">Buy Xbox games <br>and consoles</a></div>
+        </div>
+        <div class="mt-12"><img class="pl-20" src="images/BW-MS-logo-angle.webp">
+          <div class="text-xs font-bold ml-3 pt-1 text-center"><a href="#" class="hover:underline">Shop Windows <br>10</a></div>
+        </div>
+        <div class="mt-12"><img class="pl-20" src="images/pc.webp">
+          <div class="text-xs font-bold ml-3 pt-1 text-center"><a href="#" class="hover:underline">Find your next PC</a></div>
+        </div>
+        <div class="mt-12"><img class="pl-20" src="images/shopBusiness.webp">
+          <div class="text-xs font-bold ml-3 pt-1 text-center"><a href="#" class="hover:underline">Shop Business</a></div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
