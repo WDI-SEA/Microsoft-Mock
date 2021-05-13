@@ -8,6 +8,11 @@ body {
     margin-right: 4px;
 }
 
+#start {
+    margin-left: 16px;
+    margin-right: auto;
+}
+
 #end{
     margin-left: auto; 
     margin-right: 0; 
