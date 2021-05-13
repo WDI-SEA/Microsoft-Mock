@@ -1,0 +1,33 @@
+body {
+    margin: 0 auto;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}
+
+#end{
+    margin-left: auto; 
+    margin-right: 0; 
+    display: flex;
+}
+
+#search{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#cart{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
