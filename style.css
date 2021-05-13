@@ -18,5 +18,32 @@
     width: 120px;
   }
   p {
+    font-weight: bold;
     display: block;
   }
+
+  .carouselExampleControls {
+  
+    width: 100%;
+  margin: auto;
+  max-height: 300px;
+      
+  }
+
+  #caraimg {
+    width: 50%;
+    height: auto;
+  }
+  #iconimg {
+      width: 140px;
+      height: auto;
+      margin-left: 10px
+  }
+  #topnavbar {
+      margin-top: -30px;
+  } 
+#navbarDropdownMenuLink {
+    margin-top: 4px;
+}
+  
+  
