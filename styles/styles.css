@@ -1,0 +1,117 @@
+* {
+    margin: 0 auto;
+}
+
+.ms-logo {
+    margin: 5px 15px 25px 30px
+}
+
+a.nav-link {
+    color: black;
+    padding: 12px;
+}
+
+a.blue {
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(14,105,182)
+}
+
+li.single-link {
+    float: left;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    padding: 0;
+}
+
+
+li.icon {
+    float: right;
+    display: block;
+    font-size: 13px;
+    text-align: center;
+    padding: 12px;
+}
+
+.navbar-right {
+    margin-right: 80px;
+}
+
+.arrow {
+    border: solid grey;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    
+}
+
+.carousel-image {
+    height: 425px;
+    margin-left: 60px;
+}
+
+.six-box {
+    margin: 75px 85px 40px 85px;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    text-align: center;
+}
+
+.four-box {
+    margin: 0 80px 60px 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.four-cell-image {
+    width: 275px;
+}
+
+h5 {
+    font-weight: bold;
+    margin: 37px 0 0;
+}
+
+p {
+    font-size: 14px;
+}
+
+h4 {
+    font-weight: bold;
+    margin: 50px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+.banner {
+    text-align: center;
+    margin: 80px;
+    padding: 24px 46px 10px 46px;
+    background-color: rgb(230,230,230)
+}
+
+a.covid-link {
+    color: black;
+    font-weight: bold;
+}
+
+.social-icons {
+    margin: 60px auto 0 20px;
+    color: rgb(102,102,102)
+}
+
+.social-logos {
+    height: 28px;
+    width: 28px;
+}
+
+li.social-link {
+    float: left;
+    display: block;
+    padding: 10px;
+}
