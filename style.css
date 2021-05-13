@@ -1,0 +1,61 @@
+body {
+    background-color: white;
+}
+
+.tipTopLeft {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-container {
+    list-style-type: none;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.tipTopRight {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+/* .blueRibbon {
+    display: flex;
+    justify-content: center;
+} */
+
+/* .mainStuff {
+  text-align: center;
+} */
+
+button {
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mainImage {
+    display: flex;
+    justify-content: center;
+}
+
+/* .bottomImages {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 50px;
+    margin-top: 100px;
+    justify-content: center;
+} */
+
+.bottomImages {
+    display: flex;
+    justify-content: center;
+}
+
+.bottomImageDescriptions {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
