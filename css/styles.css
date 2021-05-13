@@ -22,7 +22,7 @@ li:hover {
 }
 
 #mainPic {
-    width: 1780px;
+    width: 90%;
     height: auto;
 }
 
@@ -51,13 +51,13 @@ li:hover {
   }
 
   .two {
-    grid-column: 2 / 9;
+    grid-column: 2 / 8;
     grid-row: 1;
     padding-top: 16px;
   }
 
   .three {
-    grid-column: 9 / 12;
+    grid-column: 8 / 12;
     grid-row: 1;
     text-align: right;
   }
