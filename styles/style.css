@@ -1,0 +1,22 @@
+#carousel1 {
+    background-color: #f5f5f5;
+}
+
+.shop-item {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    margin: 10px;
+}
+
+.shop-item:hover {
+    text-decoration: underline;
+    color: inherit;
+
+}
+
+.games-list {
+    position: absolute;
+    height: auto;
+    width:  auto;
+}
