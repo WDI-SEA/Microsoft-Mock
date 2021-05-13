@@ -7,7 +7,9 @@
   p {
 
         text-align: center;
-        max-width: 120px;
+        display: inline-block;
+        max-width: 140px;
+        
         
   }
 
@@ -15,7 +17,7 @@
     vertical-align: top;
     display: inline-block;
     text-align: center;
-    width: 120px;
+    width: -100px;
   }
   p {
     font-weight: bold;
@@ -31,7 +33,7 @@
   }
 
   #caraimg {
-    width: 50%;
+    width: 100%;
     height: auto;
   }
   #iconimg {
