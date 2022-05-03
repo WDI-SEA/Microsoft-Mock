@@ -1,0 +1,94 @@
+p {
+    font-family: 'Dosis', sans-serif;
+    color:#262626;
+}
+
+#topRow-Container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 5rem;
+}
+
+body {
+    margin: 0rem 10rem;
+}
+
+.topRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.topRow-Content {
+    padding: .5rem 1rem;
+    font-weight: bold;
+}
+#msHeaderIcon{
+    height: 54px;
+    width: 137px;
+    margin: auto 0rem;
+}
+
+.topRowRight-Icons {
+    margin: auto 0rem;
+}
+
+.topRowRight-Content {
+    padding: .5rem 0rem .5rem 1rem;
+    font-weight: bold;
+}
+
+
+#covidText-Container {
+    display: flex;
+    justify-content: Center;
+    border: 1px solid white;
+    background-color: #0067B8;
+    color: white;
+}
+
+#covidText {
+    color:white;
+    font-size: medium;
+}
+
+#centerpiece-Container {
+    display: flex;
+    justify-content: Center;
+}
+
+#centerpiece-Img {
+    max-width:100%;
+    height: auto;
+}
+
+#iconsRow-Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: Center;
+    margin: 5rem auto 0rem auto;
+}
+
+
+.icon-Container {
+    max-height: 112px;
+    max-width: 184px;
+}
+
+.icon-Img {
+    height: 40px;
+    width: 40px;
+}
+
+.iconImg-Container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.iconsRow-Content {
+    margin: 0rem .5rem;
+    padding: .3rem 2rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
