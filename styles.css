@@ -1,0 +1,99 @@
+/* *,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid pink;
+}
+
+.header-flex-container {
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.start {
+  display: flex;
+}
+
+.end {
+  display: flex;
+}
+
+.header-flex-item1 {
+  background-color: aqua;
+}
+
+.header-flex-item2 {
+  background-color: green;
+}
+
+.things {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border: 2px solid red;
+} */
+
+.flex-container {
+  width: 66%;
+  margin: 0 auto;
+  font-size: 15px;
+  color: grey;
+}
+
+.header-flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.start {
+  display: flex;
+}
+
+.start h3 {
+  margin-left: 10px;
+}
+
+.end {
+  display: flex;
+}
+
+.end h3 {
+  margin-right: 10px;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid pink;
+}
+
+.jumbotron img {
+  width: 100%;
+  height: auto;
+}
+
+.things {
+  display: flex;
+  justify-content: space-around;
+}
+
+.things img {
+  width: 70px;
+  height: 70px;
+}
