@@ -49,6 +49,7 @@ body {
 #covidText {
     color:white;
     font-size: medium;
+    font-weight: bold;
 }
 
 #centerpiece-Container {
