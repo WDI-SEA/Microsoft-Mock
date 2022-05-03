@@ -1,29 +1,42 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 25px;
+}
 #header {
     display: flex;
     flex-direction: row;
     max-width: 90%;
-    margin: 0 auto;
-    justify-content: space-between;
-
+    margin: 0 auto;   
 }
 #header-one {
+   align-self: flex-start;
+}
+#header-one >button {
+    
+    margin: 0 5px;
+    font-size: 12.5px;
+    background-color: white;
+    border: none;
+    
+}
+#button-group-two {
+    margin-left: auto;
+}
+#drop-down {
+    height: 12.5px;
+    background-color: white;
+    border: none; 
+}
+
+#apps {
+    background-image: url('images/Screen Shot 2022-05-03 at 12.27.27 AM.png');
+    background-size: contain;
+    width: 100px;
+    height: 27px;
+    border: none;  
     align-self: flex-start;
 }
-#header-one >a {
-    text-decoration: underline;
-    
-}
-#main-hub {
-    display: flex;
-    flex-direction: row;
-    
-}
-.main-hub-pair {
-    display: flex;
-    flex-direction: column; 
-    
 
-}
 #button-one {
     height: 30px;
     border: none;
@@ -34,13 +47,82 @@
     width: auto;
 
 }
+
+#jumbotron-div {
+    width: 90%;
+    height: 400px;
+    background-image: url("./images/jumbo.jpeg");
+    display: block;
+    margin: 0 auto; 
+    background-size: cover;
+}
+#jumbo-words {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+#jumbo-words >p {
+    font-size: 14px;
+    margin-top: -8px;
+}
+#micfor6 {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 35px;
+    width: 60%;
+    font-weight: bold;
+  
+}
+#micfor1 {
+    border: none;
+    height: 35px;
+    width: 60%;
+    font-weight: bold;
+}
+#jumbo-buttons {
+    display: flex;
+    width: 75%;
+}
+#current-promo {
+    width: 90%;
+    height: 40px;
+    background-color: #2B65B2;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 12px;
+    z-index: 1;
+}
+#current-promo > p {
+    padding-top: 12px;
+    color: white;
+}
+#main-hub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin: 40px auto;
+}
+.main-hub-pair {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    text-align: center;
+    
+}
+.main-hub-pair > p {
+    color: #2B65B2;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 .main-hub-img {
     height: 50px;
     object-fit: contain;
 }
-#jumbotron {
-    width: 90%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
+
