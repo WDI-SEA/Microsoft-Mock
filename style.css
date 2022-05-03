@@ -1,0 +1,66 @@
+*{
+    margin: 0 20px;
+    box-sizing: border-box;
+
+  }
+body{
+    display: flex;
+    /* align-content: center; */
+    align-content: center;
+    flex-wrap: wrap;
+    width: 100%; 
+    text-align: center;
+}
+
+#centerContainer { 
+    width: 1260px; 
+    text-align: center; 
+    margin: 0px auto;
+ }
+
+.congratulate{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    background-color: rgb(41, 123, 245);
+    font-size: 14px;
+    width: 1300px;
+    height: 30px;  
+}
+#congratulate>p{
+    display: flex;
+    text-align: center;
+    
+}
+#image{
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.icons{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    margin: 70px 40px;
+}
+.icons>div{
+    /* display:inline-block; */
+    flex-direction: column;
+    align-content: center;
+    
+    text-align: center;
+}
+section{
+    width:125px;
+    height:40px;
+    margin: 0px 21px 0px 22px;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    
+}
