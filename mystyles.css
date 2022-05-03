@@ -1,0 +1,46 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+#header-one {
+    align-self: flex-start;
+}
+#header-one >a {
+    text-decoration: underline;
+    
+}
+#main-hub {
+    display: flex;
+    flex-direction: row;
+    
+}
+.main-hub-pair {
+    display: flex;
+    flex-direction: column; 
+    
+
+}
+#button-one {
+    height: 30px;
+    border: none;
+    background-color: white;
+}
+#button-one > img {
+    height: 25px; 
+    width: auto;
+
+}
+.main-hub-img {
+    height: 50px;
+    object-fit: contain;
+}
+#jumbotron {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
