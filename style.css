@@ -1,0 +1,106 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+  margin-top: 2px;
+}
+
+
+body {
+    min-height: 100vh;
+    margin: 0 auto;
+    font: 12pt Comic Sans MS;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+  }
+.main {
+    margin: 50px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.section1 {
+    /* width: 100px; */
+    justify-content: space-between;
+
+  color: #FFFFFF;
+  display: flex;
+  /* border-radius: 10px; */
+  /* margin: 5px;
+  text-align: center;
+  line-height: 100px; */
+}
+.section2 {
+  justify-content: space-between;
+
+  color: #FFFFFF;
+  display: flex;
+}
+.pic {
+    margin: 0px 50px 0px 50px;
+    background-color: #990012;
+    display: flex;
+    align-content: center;
+
+}
+.pic img {
+  width: 100%;
+}
+.row {
+  margin: 50px 50px 0px 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.microsoft365 {
+  margin-top: 10px;
+}
+.office {
+  margin-top:11px;
+}
+.windows{
+  margin-top:13px;
+}
+.surface {
+  margin-top:13px;
+}
+.xbox {
+  margin-top:13px;
+}
+.deals {
+  margin-top:12px;
+}
+.support {
+  margin-top:10px;
+}
+.allm{
+  margin-top: 6px;
+}
+.search{
+  margin-top: 5px;
+}
+.cart{
+  margin-top: 5px;
+}
+.sign {
+
+}
