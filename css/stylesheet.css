@@ -1,0 +1,23 @@
+body {
+    
+}
+.topLeft {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+h4 {
+    margin: 40px 15px;
+}
+.topRight {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.banner {
+    position: relative;
+    height: 90%;
+    width: 90%;
+}
