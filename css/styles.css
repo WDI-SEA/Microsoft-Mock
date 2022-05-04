@@ -1,0 +1,80 @@
+#full-header{
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 15px;
+    justify-content: center;
+    height: 60px;
+    align-content: center;
+}
+#left-header{
+    display: flex;
+    margin: 2px 550px 2px 15px
+}
+#right-header{
+    display:flex;
+    margin: 2px 0px 2px 15px
+}
+.header{
+    padding: 10px;
+    
+}
+#jumbo-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#jumbotron{
+   text-align: center;
+   position: relative;
+}
+#bottom-section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    margin-top: 25px;
+}
+.text-pic-combos{
+    display:flex;
+    flex-direction: column;
+    height: 112px;
+    width: 180px;
+}
+.bottom-row-images{
+    width: 40px;
+    height: 40px;
+}
+#microsoft-logo{
+    width: 108px;
+    height: 23px;
+    margin: -17px 0px 0px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
+.bottom-text{
+    padding: .3rem 2rem;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(9, 79,166 );
+}
+#search{
+    height: 40px;
+    width: 40px;
+    margin: 15px 0px 2px -15px;
+    z-index: -1;
+}
+#cart{
+    height: 40px;
+    width: 40px;
+    margin: 15px 0px 2px -15px;
+    z-index: -1;
+}
+#account{
+    height: 30px;
+    width: 40px;
+    margin: 20px 0px 2px -10px;
+    z-index: -1;
+}
