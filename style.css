@@ -5,12 +5,12 @@
   }
 body{
     display: flex;
-    
+    justify-content: center;
     align-content: center;
     flex-wrap: wrap;
     /* width: 100%;  */
     text-align: center;
-    
+    margin: 0;
     min-height: 100vh;
     grid-template-columns: 100%;
     grid-template-areas: "top top"
@@ -22,7 +22,7 @@ body{
     align-content: center;
     justify-content: space-between;
     margin:5px;
-    width: 100%;
+    width: 1300px;
     font-size: 13px;
 }
 #mslogo{
@@ -73,14 +73,16 @@ body{
     color: white;
     background-color: rgb(41, 123, 245);
     font-size: 14px;
-    width: 1400px;
-    height: 30px;  
+    width: 1300px;
+    height: 35px;  
     grid-area: top;
 }
 #congratulate>p{
     display: flex;
     text-align: center;
-    
+    justify-self: center;
+    align-self: center;
+    height: 20px;
 }
 #image-container{
     display: flex;
@@ -90,7 +92,7 @@ body{
 }
 #image{
    
-    max-width: 100%;
+    max-width: 1300px;
     max-height: 100%;
     
 }
