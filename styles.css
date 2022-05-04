@@ -62,25 +62,40 @@ body {
 
 .start {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.start h3 {
-  margin-left: 10px;
+.start img {
+  width: 108px;
+  height: 23px;
+}
+
+.start ul li {
+  margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0 0 0 20px;
+}
+
+li {
+  display: inline;
 }
 
 .end {
   display: flex;
 }
 
-.end h3 {
-  margin-right: 10px;
+.end ul li {
+  margin-left: 10px;
 }
 
 .jumbotron {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px solid pink;
 }
 
 .jumbotron img {
@@ -91,9 +106,18 @@ body {
 .things {
   display: flex;
   justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  padding-top: 48px;
 }
 
-.things img {
-  width: 70px;
-  height: 70px;
+.things div {
+  width: 184px;
+  padding: 12px 6px;
+}
+
+.things div img {
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
 }
