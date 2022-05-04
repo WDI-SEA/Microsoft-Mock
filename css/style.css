@@ -1,0 +1,91 @@
+#topRowContainer {
+    display: flex;
+
+    justify-content: space-between;
+    margin: 0px 0rem;
+}
+
+body {
+    margin: 0rem 10rem;
+}
+
+.topRow {
+    display: flex;
+    flex-direction: row;
+}
+
+#msHeaderIcon {
+    height: auto;
+    width: 17%;
+    margin: auto;
+}
+
+#searchImg {
+    height: 16px;
+    width: 16x;
+    margin: auto;
+}
+
+#cartImg {
+    height: 16px;
+    width: 16x;
+    margin: auto;
+}
+
+#signInImg {
+    height: 32px;
+    width: 32x;
+    margin: auto;
+}
+
+.topRowContent {
+    padding: 0px 5px;
+    font-size: 13px;
+}
+
+#blueLineContainer {
+    display: flex;
+    justify-content: center;
+    background-color: #0067B8;
+    color: white;
+}
+
+#centerPictureContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#centerPicture {
+    max-width: 100%
+}
+
+#bottomRowContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 5rem auto 2rem auto;
+
+}
+.bottomIconContainer {
+
+    max-height: 112px;
+    max-width: 184px;
+}
+
+.iconImgContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#iconImg {
+    height: 40px;
+    width: 40px;
+}
+
+.bottomRowContent {
+    color: #0067B8;
+    font-weight: 900;
+    text-align: center;
+    padding: .5rem 1rem;
+    margin: 0rem .5rem
+}
