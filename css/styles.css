@@ -72,7 +72,7 @@ body {
     font-size: 15px;
     text-align: center;
     max-width: 125px;
-    vertical-align: text-top;
+    vertical-align: text-top; 
 }
 .choices li img{
     width: 40px;
