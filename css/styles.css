@@ -1,0 +1,100 @@
+#topSide {
+    display: flex;
+    justify-content: space-between;
+}
+body {
+    text-align: center;
+    margin: 0rem 2rem;
+}
+
+.microMicro {  
+    display: flex; 
+     margin: auto .2rem;
+    /* width: 44px;
+    height: 44px;  */
+    
+}
+
+
+
+.topRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.rowTop{
+    padding: 15px 15px;
+}
+
+#subHeadingEdit {
+    background-color: #0067b8;
+    display: flex;
+    height: 1.8rem;
+    padding: 4px;
+    justify-content: center;
+    
+}
+
+.theTopRight {
+padding: 30px 10px;
+flex-direction: row;
+margin: auto;
+}
+
+
+
+
+#jumboTron {
+    max-width: 100%;
+
+}
+
+#jumboTronCont {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.subHeading {
+    color: white;
+}
+
+#underJumboTron {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem 0rem;
+    padding: 0px 10px;
+}
+
+.belowJumbo {
+    display: flex;
+    padding: .5rem 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.aboveMicro {
+  height: 40px;
+  width: 40px;
+  
+}
+
+
+
+.choseMicro {
+    display: flex;
+    justify-content: center;
+}
+
+.testTest {
+    display: flex;
+    flex-direction: column;
+    height: 112px;
+    width: 184px;
+}
+
+
+
