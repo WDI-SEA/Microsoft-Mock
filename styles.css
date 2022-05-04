@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0px 69px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header1 {
+    color: rgb(41, 39, 39);
+    display: flex;
+    max-height: 40px;
+    /* justify-content: left; */
+}
+
+/* .header2 {
+    color:rgb(41, 39, 39);
+    display: flex;
+    justify-content: right; 
+} */
+
+.header-left {
+    padding: 5px 10px;
+}
+
+/* .microsoft365 {
+    padding: 5px 100px;
+} */
+
+.header-right {
+    padding: 5px 10px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    color:rgb(41, 39, 39);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.footer {
+    color: blue;
+    text-align: center;
+    max-width: 120px;
+}
+
+footer img {
+    height: 50px;
+    width: 50px;
+}
+
+footer p {
+    margin: 0;
+}
