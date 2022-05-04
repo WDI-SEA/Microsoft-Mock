@@ -8,11 +8,11 @@ body {
 }
 
 .top {
-    width: 1300px;
+    max-width: 1300px;
     margin: auto;
     max-height: 60px;
     display: grid;
-    grid-template-columns: 120px 1fr 180px; 
+    grid-template-columns: 120px 1fr 450px; 
     grid-template-areas: 'logo' 'list' 'search' ;
 }
 .logo {
@@ -32,8 +32,33 @@ body {
 .list li{
     display:  inline-block;
     list-style-type: none;
-    padding: 10px 16px 8px 16px;
+    padding: 10px 10px 8px 10px;
 }
+.search{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
+.search p{
+    display: inline-block;
+}
+.search img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    transform: translate(0%,25%);
+}
+.search section{
+    /* height: 50px; */
+    display: inline-block;
+}
+/* img #profile{
+    width:50px;
+    height:auto
+} */
+
 
 .jumbotron{
     display: flex;
