@@ -5,18 +5,65 @@
   }
 body{
     display: flex;
-    /* align-content: center; */
+    
     align-content: center;
     flex-wrap: wrap;
-    width: 100%; 
+    /* width: 100%;  */
     text-align: center;
+    
+    min-height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-areas: "top top"
+                         "center center"
+                         "foot foot"
+}
+#headers{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    margin:5px;
+    width: 100%;
+    font-size: 13px;
+}
+#mslogo{
+    display: flex;
+    
+    margin: 0px;
+    justify-self: start;
+}
+#left-header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    margin: 0px;
+}
+#left-header>div{
+    margin: 0px;
+    width: 85px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
-#centerContainer { 
-    width: 1260px; 
-    text-align: center; 
-    margin: 0px auto;
- }
+#right-header{
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    margin: 0px;
+}
+#right-header>div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin:0px;
+    height:20px;
+}
+
 
 .congratulate{
     display: flex;
@@ -26,18 +73,26 @@ body{
     color: white;
     background-color: rgb(41, 123, 245);
     font-size: 14px;
-    width: 1300px;
+    width: 1400px;
     height: 30px;  
+    grid-area: top;
 }
 #congratulate>p{
     display: flex;
     text-align: center;
     
 }
-#image{
+#image-container{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: center;
+}
+#image{
+   
     max-width: 100%;
     max-height: 100%;
+    
 }
 
 .icons{
@@ -46,6 +101,7 @@ body{
     justify-content: center;
     text-align: center;
     margin: 70px 40px;
+    grid-area: foot;
 }
 .icons>div{
     /* display:inline-block; */
