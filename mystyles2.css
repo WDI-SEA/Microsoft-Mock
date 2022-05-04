@@ -1,0 +1,143 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    margin-top: 10px;
+    display: grid;
+    grid-template-areas:    'grid-row1'
+                            'grid-row2'
+                            'grid-row3'
+                            'grid-row4'
+                            'grid-row5'
+                            'grid-row6'
+                            'grid-row7'
+                            'grid-row8'
+                            'grid-row9';
+    grid-template-rows: 45px 40px 450px 200px 250px 350px 250px 400px;
+}
+header {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    grid-area: grid-row1;
+    
+}
+nav {
+    justify-content: flex-start;
+    align-items: center;
+    flex: 2;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#settings-bar {
+    justify-content: flex-end;
+}
+li {
+    display: inline;
+    list-style: none;
+    font-size: 13px;
+    padding: 0 8px;
+}
+#current-promo {
+    width: 90%;
+    height: 40px;
+    background-color: #2B65B2;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 13px;
+    z-index: 1;
+    grid-area: grid-row2;
+}
+
+#settings-bar {
+    margin-left: auto;
+    
+}
+#settings-bar > img {
+    height: 100%;
+    margin-left: auto;
+}
+#home-button {
+    height: 30px;
+    border: none;
+    background-color: white;
+}
+#home-button > img {
+    height: 25px; 
+    width: auto;
+}
+
+#jumbotron-div {
+    width: 90%;
+    display: block;
+    margin: 0 auto; 
+    grid-area: grid-row3;   
+}
+#jumbo-img{
+    object-fit: contain;
+    max-width: 90%;
+    position: absolute;
+    display: block;
+    margin: 0 auto;
+}
+#jumbo-words {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    position: relative;
+    top: 30%;
+    left: 50px;
+}
+#jumbo-words >p {
+    font-size: 16px;
+    margin-top: -8px;
+}
+#micfor6 {
+    background-color: black;
+    color: white;
+    border: none;
+    height: 35px;
+    width: 60%;
+    font-weight: bold;
+  
+}
+#micfor1 {
+    border: none;
+    height: 35px;
+    width: 60%;
+    font-weight: bold;
+}
+#jumbo-buttons {
+    display: flex;
+    width: 75%;
+}
+
+#current-promo > p {
+    color: white;
+}
+#main-hub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90%;
+    margin: 40px auto;
+}
+.main-hub-pair {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    text-align: center;
+    
+}
+.main-hub-pair > p {
+    color: #2B65B2;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 13.5px;
+}
+
+.main-hub-img {
+    height: 50px;
+    object-fit: contain;
+}
+
