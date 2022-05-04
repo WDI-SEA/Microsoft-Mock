@@ -1,0 +1,41 @@
+.top {
+    color: rgb(83, 81, 81);
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: sans-serif;
+    flex-direction: row;
+    margin: 20px;
+    font-size: 15px;
+    position: relative;
+}
+.topSpace {
+    color: white;
+}
+
+
+.img {
+    margin: 40px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+footer div {
+
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(83, 81, 81);
+}
+
+
