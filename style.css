@@ -120,6 +120,6 @@
 .flex-container {
     display: flex;
     flex-direction: row;
-    margin-left: 80px; 
-    margin-top: 70px;  
+    margin-left: 90px; 
+    margin-top: 50px;  
 }
