@@ -1,0 +1,27 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows:80px 1fr 160px;
+    
+}
+
+.jumbotron{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 1300px;
+    margin: auto;
+}
+.jumb-banner {
+    background-color: #2d65b2;
+    font-size: 2rem;
+    width: 100%;
+    height: auto;
+    max-width: 1300;
+}
+.jumb-img img{
+    height: 100%;
+    width: 1300px;
+    object-fit: contain;
+  
+}
