@@ -1,23 +1,54 @@
 body {
     min-height: 100vh;
     display: grid;
-    grid-template-rows:80px 1fr 160px;
-    
+    grid-template-rows:60px 1fr 160px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: auto;
+}
+
+.top {
+    width: 1300px;
+    margin: auto;
+    max-height: 60px;
+    display: grid;
+    grid-template-columns: 120px 1fr 180px; 
+    grid-template-areas: 'logo' 'list' 'search' ;
+}
+.logo {
+    width: 100%;
+    height: auto;
+    grid-area: logo;
+    object-fit: contain;
+}
+.logo img{
+    object-fit: contain;
+    width: 100%;
+    transform: translate(0%,50%);
+}
+.list{
+    grid-area: list;
+}
+.list li{
+    display:  inline-block;
+    list-style-type: none;
+    padding: 10px 16px 8px 16px;
 }
 
 .jumbotron{
     display: flex;
     flex-direction: column;
     text-align: center;
-    max-width: 1300px;
-    margin: auto;
+    /* set max width of the jumbotron so img cant be bigger than this value */
+    max-width: 1300px; 
+    margin: auto; /* centers the div */
 }
 .jumb-banner {
     background-color: #2d65b2;
-    font-size: 2rem;
-    width: 100%;
+    width: 1300px;
     height: auto;
-    max-width: 1300;
+    color: white;
+    padding: 12px 0;
 }
 .jumb-img img{
     height: 100%;
