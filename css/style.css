@@ -1,0 +1,74 @@
+div {
+  display: flex;
+  justify-content: center;
+}
+body {
+  margin: 0rem 10rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.rightheader {
+  margin: 1px 10px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+}
+.leftheader {
+  font-size: 13px;
+  margin: 1px 10px;
+  display: flex;
+  align-items: center;
+}
+#searchimg {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+.leftdiv {
+  font-size: 15px;
+  display: flex;
+}
+.rightdiv {
+  font-size: 15px;
+}
+.mainhead {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+}
+.coviddiv {
+  justify-content: center;
+  align-items: center;
+  background-color: #0067b8;
+  height: 40px;
+  color: white;
+}
+.products1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: column;
+  margin: 3rem 0;
+  overflow: hidden;
+  inline-size: 130px;
+  font-weight: bold;
+}
+.imggroup {
+  width: 40px;
+  height: 40px;
+  align-self: center;
+}
+.products {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2rem 15rem;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bigpicc {
+  /* width: 1602px; */
+  width: 100%;
+}
