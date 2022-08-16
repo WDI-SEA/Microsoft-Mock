@@ -1,5 +1,5 @@
 .top-nav {
-    font-size: 20px;
+    font-size: 15px;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -19,10 +19,24 @@
 .flex-row {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 #carousel-image {
     display:flex;
     justify-content: center;
     align-items: center;
+    
+}
+
+
+.bottom-icons {
+    font-size: 10px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+    margin-right: 100px;
+  
 }
