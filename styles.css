@@ -5,6 +5,10 @@
     color: black;
 }
 
+a {
+    text-decoration: none;
+}
+
 .below-nav {
     display: flex;
     justify-content: center;
@@ -54,9 +58,12 @@ button {
 }
 
 .bottom-nav {
+    margin-top: 28px;
     display: flex;
     justify-content: space-around;
     white-space: nowrap;
     text-align: center;
     vertical-align: auto;
+    font-weight: 550;
+    font: "Gill Sans";
 }
