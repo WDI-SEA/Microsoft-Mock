@@ -8,7 +8,7 @@
 
 .leftPhrase {
     position: relative;
-    word-break: break-all;
+    word-break: break-word;
     max-width: 600px;
     margin-left: 10%;
 } 
@@ -26,11 +26,21 @@
     margin-left: 10%;
 }
 
-.testing {
+.leftText {
     position: absolute;
 }
 
+.arrow {
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
 
+.option {
+    background-color: white;
+    border-radius: 15px;
+}
 
 .flex-center {
     display: flex;
