@@ -1,0 +1,23 @@
+html, body
+{
+    background-color: white;
+}
+.flex-row
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-left
+{
+    display: flex;
+    align-items: center;
+    width: 43.75%;
+}
+.flex-right
+{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 43.75%;
+}
