@@ -6,42 +6,6 @@
     width: auto;
 }
 
-.leftPhrase {
-    position: relative;
-    word-break: break-word;
-    max-width: 600px;
-    margin-left: 10%;
-} 
-
-.itemTitle {
-    position: relative;
-    margin-bottom: 5%;
-    margin-left: 10%;
-    font-size: 37px;
-}
-
-.tagLine {
-    position: relative;
-    margin-bottom: 10%;
-    margin-left: 10%;
-}
-
-.leftText {
-    position: absolute;
-}
-
-.arrow {
-    background-color: white;
-    border: none;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.option {
-    background-color: white;
-    border-radius: 15px;
-}
-
 .flex-center {
     display: flex;
     align-items: center;
@@ -49,11 +13,52 @@
     justify-content: flex-start;
     
 }
+    .leftText {
+        position: absolute;
+    }
+        .tagLine {
+            position: relative;
+            margin-bottom: -5%;
+            margin-left: 10%;
+        }
+        .itemTitle {
+            position: relative;
+            margin-bottom: 5%;
+            margin-left: 10%;
+            font-size: 37px;
+        }
+        .leftPhrase {
+            position: relative;
+            word-break: break-word;
+            max-width: 550px;
+            margin-left: 10%;
+            line-height: 30px;
+        } 
+    .large-image {
+        width: 100%;
+        height: auto;
+    }
 
-.large-image {
-    width: 100%;
-    height: auto;
+
+
+.carouselButtons {
+    display: flex;
+    justify-content: center;
 }
+    .arrow {
+        background-color: white;
+        border: none;
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .option {
+        background-color: white;
+        /* border-radius: 15px; */
+        font-size: 50px;
+        max-width: 20px;
+        margin: 0 20px;
+    }
+
 
 .middle-buttons {
     display: flex;
@@ -62,18 +67,16 @@
     justify-content: center;
     margin: 0px 20px;
 }
-
-.mButtonsl {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-right: 5%;
-    padding-left: 5%;
-    width: 90%;
-    box-sizing: content-box;
-    flex-wrap: wrap;
-}
-
-.mButtons {
-    margin: 16px 95px;
-}
+    .mButtonsl {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 5%;
+        padding-left: 5%;
+        width: 90%;
+        box-sizing: content-box;
+        flex-wrap: wrap;
+    }
+        .mButtons {
+            margin: 16px 95px;
+        }
