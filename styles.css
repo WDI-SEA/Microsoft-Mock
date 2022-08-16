@@ -1,0 +1,48 @@
+
+
+
+.headLine {
+    height: 100px;
+    width: auto;
+}
+
+p {
+    position: absolute;
+    word-break: break-all;
+    margin: 50px 20px;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    background-clip: content-box;
+    justify-content: center;
+}
+
+.large-image {
+    width: 100%;
+    height: auto;
+}
+
+.middle-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 20px;
+}
+
+.mButtonsl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5%;
+    padding-left: 5%;
+    width: 90%;
+    box-sizing: content-box;
+    flex-wrap: wrap;
+}
+
+.mButtons {
+    margin: 16px 95px;
+}
