@@ -1,0 +1,23 @@
+* {
+    
+}
+.header {
+    display: flex;
+    margin-left: 100px;
+    
+}
+
+#MicrosoftLogo {
+    margin-right: 50px;
+}
+
+h4 {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.rightHeader {
+    display: flex;
+    justify-content: right;
+    
+}
