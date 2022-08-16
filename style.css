@@ -1,0 +1,30 @@
+body {
+    background-color: antiquewhite;
+}
+
+.top  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topLeft {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.topRight {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tlDiv {
+    margin-left: 23px;
+}
+
+.trDiv {
+    margin-right: 30px;
+}
+
