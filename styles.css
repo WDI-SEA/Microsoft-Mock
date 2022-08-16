@@ -1,0 +1,50 @@
+.body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    text-align: center;
+}
+
+
+
+.sliders {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+
+    }
+
+
+.shoplinks {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: end;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}    
+
+
+.shop {
+    padding: 30px;
+    font-weight: bold;
+}
+
+.nav {
+    margin-top: 20px;
+    padding: 17px;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-left: 60px;
+}
+#right {
+    padding-left: 700px;
+}
+
