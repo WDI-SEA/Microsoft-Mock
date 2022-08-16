@@ -1,0 +1,28 @@
+.top-nav {
+    font-size: 20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.nav1 {
+    margin: 20px;
+    margin-top: 0px;
+}
+
+#top-banner {
+    font-size: 18px;
+    background-color: rgb(20, 105, 182);
+    text-align: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+#carousel-image {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
