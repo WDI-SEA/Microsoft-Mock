@@ -1,6 +1,6 @@
 # Microsoft Mock
 
-The goal of this is to get you confortable creating a website from a pre-existing design. Often times, when making a site, you'll start with a wireframe. If you're working in a larger company with a User Experience Designer, they're likely to deliver a design to you and you have to impliment it; this project is to get you used to this!
+The goal of this is to get you comfortable creating a website from a pre-existing design. Often times, when making a site, you'll start with a wireframe. If you're working in a larger company with a User Experience Designer, they're likely to deliver a design to you and you have to impliment it; this project is to get you used to this!
 
 The intention of this deliverable is to gain practice with CSS and HTML, and you are free to use a framework (suggested: Tailwind, Bootstrap, or Materialize) or just vanilla CSS.
 
