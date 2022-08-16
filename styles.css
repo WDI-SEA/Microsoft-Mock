@@ -17,7 +17,7 @@
     /* text-decoration: none; */
 }
 
-a {
+.top-nav-a {
     text-decoration: none;
     color: black;
 }
@@ -36,6 +36,8 @@ button {
     font-weight: 550;
     height: 40px;
     width: 120px;
+    position: absolute;
+    top: 68%;
    
 }
 
@@ -45,13 +47,16 @@ button {
     height: 40px;
     width: 40px;
     justify-content: space-between;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    
+   
 }
 
 .bottom-nav {
     display: flex;
     justify-content: space-around;
+    white-space: nowrap;
+    text-align: center;
+    vertical-align: auto;
 }
