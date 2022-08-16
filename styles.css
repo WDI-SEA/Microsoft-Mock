@@ -6,17 +6,38 @@
     width: auto;
 }
 
-p {
-    position: absolute;
+.leftPhrase {
+    position: relative;
     word-break: break-all;
-    margin: 50px 20px;
+    max-width: 600px;
+    margin-left: 10%;
+} 
+
+.itemTitle {
+    position: relative;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    font-size: 37px;
 }
+
+.tagLine {
+    position: relative;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
+.testing {
+    position: absolute;
+}
+
+
 
 .flex-center {
     display: flex;
     align-items: center;
     background-clip: content-box;
-    justify-content: center;
+    justify-content: flex-start;
+    
 }
 
 .large-image {
