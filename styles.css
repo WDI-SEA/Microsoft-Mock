@@ -2,9 +2,17 @@
 
 
 .headLine {
-    height: 100px;
-    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 50%;
+    margin-top: 20px;
+    align-items: center;
 }
+    .microSoft {
+        width: 108px;
+        height: auto;
+        margin-bottom: 3px;
+    }
 
 .flex-center {
     display: flex;
@@ -15,25 +23,30 @@
 }
     .leftText {
         position: absolute;
+        margin-left: 5%; 
     }
         .tagLine {
             position: relative;
             margin-bottom: -5%;
-            margin-left: 10%;
         }
         .itemTitle {
             position: relative;
             margin-bottom: 5%;
-            margin-left: 10%;
             font-size: 37px;
         }
         .leftPhrase {
             position: relative;
             word-break: break-word;
             max-width: 550px;
-            margin-left: 10%;
             line-height: 30px;
         } 
+        .shopNow {
+            background-color: blue;
+            color: white;
+            border: none;
+            height: 30px;
+            width: auto;
+        }
     .large-image {
         width: 100%;
         height: auto;
