@@ -1,5 +1,5 @@
 body {
-    background-color: slategrey;
+    background-color: #FFF;
     font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
     margin: 0 auto;
 }
@@ -69,8 +69,21 @@ main {
 }
 
 #bts {
-    padding: 10px;
+    padding: 5px;
     background-color: #ffb900;
+    max-width: fit-content;
+}
+
+button {
+    padding: 10px;
+    margin: 2rem 2rem 0 0;
+    background-color: #0067b8;
+    color: #FFF;
+    border: none;
+}
+
+#appointment {
+    color: #0067b8;
 }
 
 footer {
@@ -83,4 +96,10 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+a {
+    color: #0067b8;
+    padding: 8px 0;
+    text-decoration: underline;
 }
