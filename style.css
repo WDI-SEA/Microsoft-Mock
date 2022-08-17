@@ -1,48 +1,57 @@
-* {
-    box-sizing: border-box;
+body {
+    font-style: Arial;
 }
 
-.headerlinks {
-    padding-right: 15px;
-    text-decoration: none;
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 18;
+    grid-template-rows: 5;
 }
 
-a:hover {
-    text-decoration: none;
-}
-
-a:active {
-    text-decoration: none;
-}
-
-.flex-row {
+.header {
+    grid-row-start: 0;
+    grid-row-end: 1;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    /* grid-column-start: ;
+    grid-column-end: ; */
 }
 
-.flex-right {
+.Ad {
+    grid-row-start: ;
+    grid-row-end: ;
+    grid-column-start: ;
+    grid-column-end: ;
+}
+
+.bigjohn {
+    grid-row-start: ;
+    grid-row-end: ;
+    grid-column-start: ;
+    grid-column-end: ;
     display: flex;
-    align-items:;
-}
-
-.discount {
-    background-color: rgb(20, 81, 169);
-    color: white;
-    text-align: center;
-    height: 50px;
-}
-.mediablock {
-    align-content: stretch;
-}
-
-.flex-column {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.flex-center {
     justify-content: center;
     align-items: center;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row-start: ;
+    grid-row-end: ;
+    grid-column-start: ;
+    grid-column-end: ;
+}
+
+.Product {
+    grid-row-start: ;
+    grid-row-end: ;
+    grid-column-start: ;
+    grid-column-end: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
