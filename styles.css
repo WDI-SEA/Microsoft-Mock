@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    color: hotpink;
+    font-size: 3rem;
+}
+
+/* centering with flexbox */
+
+.half-screen{
+    background-color: chartreuse;
+    height: 50vh;
+}
+
+.square {
+    background: turquoise;
+    width: 80px;
+    height: 80px;
+    margin: 100px;
+}
+
+/* flex box is a display property that is given to a parent element to layout the child elements  */
+
+.flex-center {
+    /* flex is a display property */
+    display: flex;
+    /* center horizonatally */
+    /* aka center along the main axis */
+    justify-content: center;
+    /* center vertically, aka along the flexbox cross axis */
+    align-items: center;
+}
+
+.flex-row {
+    display: flex;
+    /* be explicit about the direction */
+    flex-direction: row;
+    /* if you want responsive row */
+    /* flex-wrap: wrap; */
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    border: 3px lawngreen solid;
+    width: 100%;
+}
