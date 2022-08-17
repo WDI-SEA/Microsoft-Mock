@@ -1,37 +1,76 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Microsoft Mock</title>
-        <link rel="stylesheet" href="./styles.css" />
-    </head>
-    <body>
-        <h1>
-            <section class="top-nav">
-                <div class="nav1">Microsoft 365</div>
-                <div class="nav1">Office</div>
-                <div class="nav1">Windows</div>
-                <div class="nav1">Surface</div>
-                <div class="nav1">Xbox</div>
-                <div class="nav1">Deals</div>
-                <div class="nav1">Support</div>
-            </section>
-        </h1>
-        <h2>
-            <div id="top-banner" flex-center>Read how we're responding to the COVID-19 outbreak, and get resources to help></div>
-        </h2>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Mockup</title>
+</head>
+    <style>
+        .grid-container {
+            display:grid;
+            grid-template-columns: 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr 0.2fr; 
+            grid-template-rows: 0.8fr 6fr 1fr;
+        }
 
-        <div id="carousel-image">
-            <img src="https://i.imgur.com/juBz6l5.jpg"alt="Main Image" style="width:100%; height:100%"/>
-        </div>
+        .header {
+            grid-row-start: 1;
+            grid-row-end: 1;
+            grid-column: 1/9;
+        }
 
-        <section class="bottom-icons">
-            <div class="icon">Choose your Microsoft 365</div>
-            <div class="icon">Shop Surfaces devices</div>
-            <div class="icon">Buy Xbox games and consoles</div>
-            <div class="icon">Shop for students</div>
-            <div class="icon">Find your next PC</div>
-            <div class="icon">Shop Business</div>
-        </section>
+        .main {
+            grid-row-start: 2;
+            grid-row-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 9;
+        }
 
-    </body>
+        .grid-item {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .header img{
+            width: 100%;
+            height: 100%;
+        }
+
+        .main img {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .icon img {
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+
+    </style>
+<body>
+    <div class="grid-container">
+        <div class="grid-item header"> <img src="https://i.imgur.com/YF8Cj1V.png" alt="header" /></div>
+
+        <div class="grid-item main"><img src="https://i.imgur.com/6Nj78b5.png" alt="main" /></div>
+
+        <div class="grid-item icon"></div>
+
+        <div class="grid-item icon"><img src="https://i.imgur.com/IiiWUXg.png" alt="microsoft 365 image" /></div>
+
+        <div class="grid-item icon"><img src="https://i.imgur.com/lYWei9i.png" alt="shop surfaces devices" /></div>
+
+        <div class="grid-item icon"><img src="https://i.imgur.com/c8s66hr.png" alt="buy xbox games and consoles" /></div>
+
+        <div class="grid-item icon"><img src="https://i.imgur.com/aEDf3Jj.png" alt="shop windows 10" /></div>
+
+        <div class="grid-item icon"><img src="https://i.imgur.com/21rzKDa.png" alt="find your next pc" /></div>
+
+        <div class="grid-item icon"><img src="https://i.imgur.com/aE0JSjS.png" alt="shop business" /></div>
+            
+        <div class="grid-item icon"></div>
+
+    
+    </div>
+</body>
 </html>
