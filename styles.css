@@ -1,0 +1,93 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6% 6% 56% 30%;
+    grid-template-areas:    "nav"
+                            "noti"
+                            "board"
+                            "card"
+}
+
+
+header, .cards {
+    margin: 0 8% 0 8%;
+}
+
+header {
+    padding: 10px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    grid-area: nav;
+    /* background-color: red; */
+    white-space: nowrap;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.small {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    padding: 9px;
+    grid-area: noti;
+    background-color: rgb(0, 92, 176);
+}
+
+.large {
+    display:grid;
+    /* justify-content: center;
+    align-items: center; */
+    grid-area: board;
+    background-color: rgb(240,240,240);
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30%;
+    grid-template-areas: "text image";
+}
+
+.cards {
+
+    grid-area: card;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+}
+
+.left-links {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    font-size: 10px;
+    grid-area: text;
+    display: inline;
+    width: 50%;
+    
+}
+.image {
+    grid-area: image;
+    display: inline;
+    width: 50%;
+}
+
+.cItem {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
