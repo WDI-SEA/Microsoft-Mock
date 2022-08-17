@@ -9,10 +9,12 @@
 
     <style>
         
+
         .nav {
             text-align: center;
             position: relative;
-            display: inline-block;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         }
 
         .announcement-bar {
@@ -23,7 +25,11 @@
 
         body {
             background-color: #fefefe;
-        }
+            grid-template-areas:    "top top"
+                                    "content"
+                                    "foot foot";
+            }
+
         .half-screen {
             display: flex;
             justify-content: center;
@@ -34,6 +40,11 @@
         .link-icons {
             text-align: center;
             grid-row: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr; 
+            grid-template-rows: 1fr 1fr;
+            flex-wrap: nowrap;
+            justify-content: center;
         }
 
     </style>
@@ -44,9 +55,18 @@
 <div class="nav">
     <img src="./photos/MicrosoftLogo.png" alt="Microsoft Logo" width="225" height="50">
 
-    <nav class="navBar"> 
-        <h1>Microsoft 360 office  |  Windows  |  Surface  |  Xbox  |  Deals  |  Support</h1>
-    </nav>  
+    
+        <div class="nav-item">Microsoft 360 office </div>
+        <div class="nav-item">Windows</div>
+        <div class="nav-item">Surface</div>
+        <div class="nav-item">Xbox</div>
+        <div class="nav-item">Deals</div>
+        <div class="nav-item">Support</div>
+        <div class="nav-item"></div>
+        <div class="nav-item"></div>
+        <div class="nav-item"></div>
+       
+     
 </div>
 
 <section class="announcement-bar">
@@ -58,17 +78,21 @@
 </div>
 <section class="link-icons">
     <img src="./photos/Book_Icon.png" alt="Book Icon" width="50" height="50">
-    <p>Shop for School</p>
+   
     </img>
     <img src="./photos/Briefcase_Icon.png" alt="Briefcase Icon" width="50" height="50">
-    <p>Shop Business</p>
+    
     </img>
     <img src="./photos/MicrosoftSquare.png" alt="Microsoft Icon" width="50" height="50">
-        <p>Choose you Microsoft 365</p>
+        
     </img>
     <img src="./photos/SurfaceIcon.png" alt="Book Icon" width="50" height="50">
         <p>Shop Surface devices</p>
+        <p>Shop for school</p>
+        <p>Shop Business</p>
+        <p>Choose you Microsoft 365</p>
     </img>
+
 </section>
     
 </body>
