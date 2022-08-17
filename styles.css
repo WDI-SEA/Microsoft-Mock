@@ -1,57 +1,25 @@
 .top-nav {
-    display: grid;
-    grid-template-columns: ;
-    grid-template-rows: 100px;
-    grid-template-areas: ;
-    /* justify-content: space-around;
-    align-items: center; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     color: black;
     background-color: blanchedalmond;
 }
 
-.logo {
-
+.top-left-nav {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: black;
 }
 
-.microsoft-365 {
-
+.top-right-nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: black;
 }
 
-.office {
-
-}
-
-.windows {
-
-}
-
-.surface {
-
-}
-
-.xbox {
-
-}
-
-.deals {
-
-}
-
-.support {
-
-}
-
-.all-microsoft {
-
-}
-
-.search {
-
-}
-
-.cart {
-    
-}
 
 a {
     text-decoration: none;
