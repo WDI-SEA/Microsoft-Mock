@@ -1,41 +1,43 @@
-.body {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    text-align: center;
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
 }
 
+.banner {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    background-color: rgb(7, 103, 184);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}        
 
-
-.sliders {
+.slider {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 
 }
 
-.header {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: start;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+.img {
 
-    }
+}
 
 
 .shoplinks {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     justify-content: center;
-    align-items: end;
     font-family: 'M PLUS Rounded 1c', sans-serif;
-}    
-
-
-.shop {
     padding: 30px;
     font-weight: bold;
 }
 
 .nav {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     margin-top: 20px;
     padding: 17px;
 }
@@ -44,7 +46,13 @@
     margin-top: 20px;
     margin-left: 60px;
 }
-#right {
-    padding-left: 700px;
+
+.shop{
+    text-align: center;
+    padding: 30px;
 }
+
+
+
+
 
