@@ -6,31 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Microsoft mock</title>
     <link ref="stylesheet" href="./style.css"/>
+
     <style>
         
-.nav {
-    text-align: center;
-    position: relative;
-    display: inline-block;
-}
+        .nav {
+            text-align: center;
+            position: relative;
+            display: inline-block;
+        }
 
-.alert-componant {
-    background-color: #0867b8;
-}
+        .announcement-bar {
+            background-color: #0867b8;
+            width: 100px;
+            height: auto;
+        }
 
-body {
-    background-color: #fefefe;
-}
-.hero-image {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-}
+        body {
+            background-color: #fefefe;
+        }
+        .half-screen {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
 
-.link-icons {
-    text-align: center;
-    grid-row: auto;
-}
+        .link-icons {
+            text-align: center;
+            grid-row: auto;
+        }
 
     </style>
 </head>
@@ -39,19 +43,20 @@ body {
 
 <div class="nav">
     <img src="./photos/MicrosoftLogo.png" alt="Microsoft Logo" width="225" height="50">
+
     <nav class="navBar"> 
         <h1>Microsoft 360 office  |  Windows  |  Surface  |  Xbox  |  Deals  |  Support</h1>
-        </nav>  
+    </nav>  
 </div>
 
-<section class="message">
-<div class="alert-componant"></div>
+<section class="announcement-bar">
+<div class="flex-row"></div>
 </section>
 
-<div class="Hero-image flex-center">
+<div class="half-screen flex-center">
 <img src="./photos/Microsoft Surface Hero image.jpeg">
 </div>
-<div class="link-icons">
+<section class="link-icons">
     <img src="./photos/Book_Icon.png" alt="Book Icon" width="50" height="50">
     <p>Shop for School</p>
     </img>
@@ -64,7 +69,7 @@ body {
     <img src="./photos/SurfaceIcon.png" alt="Book Icon" width="50" height="50">
         <p>Shop Surface devices</p>
     </img>
-</div>
+</section>
     
 </body>
 </html>
