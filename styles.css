@@ -1,0 +1,52 @@
+body {
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.flex-top-row {
+    display: flex;
+    justify-content: space-evenly;
+    bottom: 0;
+
+}
+
+.flex-top-row-sec-1 {
+    display: flex;
+    justify-content:right;
+    align-items: flex-end;
+    
+   
+}
+
+.flex-top-row-sec-2 {
+    display: flex;
+    align-items: flex-end;
+}
+
+.nav-link {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 15px;
+    position: relative;
+    bottom: 0;
+
+}
+
+#discount-banner {
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+#p1 {
+    background-color: rgb(14	105	182	);
+    height: 50px;
+    color: white;
+    text-align: center;
+    margin: 10px 0;
+    flex-grow: 1;
+}
+
+
+
+
