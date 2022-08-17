@@ -3,11 +3,41 @@ body {
     min-height: 100vh;
     margin: 0;
     /* define the size of our columns and rows */
-    grid-template-columns: 180px 100%;
-    grid-template-rows: 50px 1fr 200px;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 50px 1fr 100px 80px;
     /* layout the named cells as a grid template */
     /* refer to the grid area names */
-    grid-template-areas:    "top top"
-                            "side content"
-                            "foot foot";
+    grid-template-areas:    "top"
+                            "top2"
+                            "middle"
+                            "bottom"
+                            "animal";
+}
+.top{ 
+    background-color: white;
+    grid-area: top;
+    
+
+}
+.top2{
+    background-color: rgb(0,103,184);
+    grid-area: top2;
+    text-align: center;
+    font-size: 18px;
+    padding:12px 0;
+    
+
+}
+.middle{
+    background-color:aqua ;
+    grid-area:middle;
+}
+.bottom{
+    background-color: white;
+    grid-area: bottom;
+}
+.bottom2{
+    background-color: white;
+    grid-area: animal;
+
 }
