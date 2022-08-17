@@ -50,6 +50,7 @@ nav{
     margin-left: 13px;
     margin-right: 13px;
 }
+
 .navOne{
     display: flex;
     padding-left: 50px;
@@ -152,3 +153,8 @@ a {
     align-items: center;
     justify-content: center;
 }
+.one:hover, .two:hover, .three:hover, .four:hover, .five:hover, .six:hover,
+.seven:hover, .all:hover, .search:hover, .cartA:hover, .sign:hover, .button:hover{
+    text-decoration:underline ;
+}
+
