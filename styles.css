@@ -1,43 +1,67 @@
 
-.flex-row {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
+h1 {
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
 
+button {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+
+}
+
+.left {
+    display: flex;
+    justify-content: start;
+}
+
+.right {
+    display: flex;
+    justify-content: end;
 }
 
 .banner {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Mako', sans-serif;
     background-color: rgb(7, 103, 184);
     color: white;
-    padding: 30px;
+    padding: 15px;
     text-align: center;
 }        
 
-.slider {
+.flex-middle {
     display: flex;
     justify-content: center;
-    align-items: center;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-
-}
-
-.img {
-
+    height: 670px;
 }
 
 
-.shoplinks {
+.text {
+    position: relative;
+    top: -370px;
+    left: 250px;
+    font-family: 'Mako', sans-serif;
+} 
+
+.flex-bottom {
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    padding: 30px;
-    font-weight: bold;
+    align-items: flex-start;
+    
 }
 
 .nav {
-    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Mako', sans-serif;
     margin-top: 20px;
     padding: 17px;
 }
@@ -45,11 +69,19 @@
 .logo {
     margin-top: 20px;
     margin-left: 60px;
+    margin-right: 30px;
+
 }
 
 .shop{
     text-align: center;
     padding: 30px;
+    font-family: 'Mako', sans-serif;
+    font-weight: bold;
+}
+
+.search {
+    padding-left: 50px;
 }
 
 
