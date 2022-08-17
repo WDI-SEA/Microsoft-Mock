@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-content: center;
     grid-template-columns: 1fr;
-    grid-template-rows: 6% 6% 56% 30%;
+    grid-template-rows: 6% 6% 68% 18%;
     grid-template-areas:    "nav"
                             "noti"
                             "board"
