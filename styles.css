@@ -1,27 +1,49 @@
 
 .headLine {
-    margin-top: 20px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    margin-left: 5%;
+    padding-top: 15px;
 }
 
     .topLeft {
         display: flex;
-        width: 50%;
-        justify-content: space-between;
+        flex: 1;
         margin-left: 5%;
     }
         .microSoft {
             width: 108px;
-            height: auto;
-            margin-bottom: 3px;
+            margin-right: -3%;
+        }
+        .tLeft {
+            padding: 5px 20px 0 0;
+            font-size: 14px;
         }
 
-    
-
     .topRight {
+            padding-right: 50px;
+    } 
+        .tRight {
+            font-size: 14px;
+            padding: 0 25px 0 0;
+        }
+
+        div .topRight button {
+            border: none;
+            background-color: white;
+        }
+
+    .banner {
         display: flex;
-        justify-content: flex-end;
+        margin-top: 20px;
+        background-color: #0067b8;
+        color: white;
+        justify-content: center;
+        font-size: 11px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        box-sizing:border-box;
+        padding: 10px;
         
     }
 
