@@ -1,0 +1,81 @@
+*{
+    font-family: sans-serif;
+}
+nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 50px;
+    flex-wrap: wrap;
+    min-width: 100%;
+}
+.logo{
+    height: 25px;
+    margin-left: 35px;
+}
+ul{
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    margin: 5px 5px;
+}
+li {
+    margin: 0 10px;
+    font-size: 13px;
+    font-weight: 400;
+    list-style-type: none;
+    white-space: nowrap;
+    align-items: center;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+.push {
+    align-items: center;
+    margin-left: 35%;
+}
+.sale-banner{
+    display: flex;
+    background-color: #0166B8;
+    height: 60px;
+    width: 100vw;
+    margin-left: -10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+}
+ /* .jumbo-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+
+.jumbotron, img{
+    max-width:100%;
+    height: auto;
+}
+.jumbo-nav {
+    margin: 0 41%;
+    max-height: 50px
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer ul {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer img{
+    display: block;
+    justify-content: center;
+}
+footer ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 20px;
+}
