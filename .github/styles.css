@@ -1,0 +1,13 @@
+
+
+body {
+    background-color: antiquewhite;
+}
+
+.square {
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+}
