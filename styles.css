@@ -1,3 +1,30 @@
 body {
-    background-color: aliceblue;
+    background-color: slategrey;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo{
+    padding: 12px;
+}
+
+#navbar-left {
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar-right {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    position: relative;
+    padding: 16px 8px 10px;
+    margin: 1px 0 0;
+    font-size: 13px;
 }
