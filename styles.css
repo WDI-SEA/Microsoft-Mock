@@ -124,29 +124,20 @@ body {
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-    margin: 0px 20px;
+    margin-top: 5%;
 }
     .mButtonsl {
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-around;
         padding-right: 5%;
         padding-left: 5%;
         width: 90%;
         box-sizing: content-box;
         flex-wrap: wrap;
-        margin-top: 5%;
     }
         .mButtons {
             margin: 16px 95px;
         }
-    .buttonLinks {
-        display: flex;
-        align-items: center;
-        box-sizing: content-box;
-        flex-wrap: wrap;
-        width: 90%;
+    div .links a {
+        margin: 0 40px;
     }
-        div .buttonLinks a {
-            margin: 5px 3rem; 
-        }
