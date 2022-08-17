@@ -1,14 +1,24 @@
 * {
+    white-space: nowrap;
+    
     
 }
 .header {
     display: flex;
-    margin-left: 100px;
+    margin-top: 25px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: #535353;
+    
     
 }
 
 #MicrosoftLogo {
-    margin-right: 50px;
+    margin-right: 30px;
+    margin-left: 100px;
+    width: 140px;
+    height: 40px;
 }
 
 h4 {
@@ -16,8 +26,71 @@ h4 {
     margin-right: 18px;
 }
 
+.headerDivider {
+    margin-left: 200px;
+}
 .rightHeader {
+    margin-left: 20px;
     display: flex;
-    justify-content: right;
+}
+.searchCart {
+    margin-left: 8px;
+}
+
+#search {
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    transform: scaleX(-1);
+    margin-top: -15px;
+}
+
+.mainSection {
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
     
 }
+
+#blueSection {
+    display: flex;
+    background-color: #0067b8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 50px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+#signIn {
+    margin-top: -20px;
+    height: 50px;
+    width: 50px;
+}
+
+.mainPhoto {
+    display: flex;
+    margin-top: 0px;
+
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+
+.bottomSectionImages {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+p {
+    text-align: center;
+}
+
+.bottomImages {
+    margin: 50px 50px;
+}
+
