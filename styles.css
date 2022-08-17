@@ -1,11 +1,13 @@
 body {
     background-color: slategrey;
     font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0 auto;
 }
 
 header {
     display: flex;
     justify-content: space-around;
+    color: #262626;
 }
 
 #logo{
@@ -24,7 +26,61 @@ header {
 
 .nav {
     position: relative;
-    padding: 16px 8px 10px;
-    margin: 1px 0 0;
+    padding: 16px 8px;
+    margin: 1px 0;
     font-size: 13px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    padding: 1rem 1.5rem;
+    min-height: 2rem;
+    background-color: #0067b8;
+    color: #FFF;
+}
+
+main {
+    display: flex;
+    min-height: 600px;
+    align-items: center;
+}
+
+#surface {
+    position: absolute;
+    min-height: fit-content;
+    max-width: 100vw;
+    z-index: -1;
+    align-self: flex-start;
+}
+
+.container {
+    position: relative;
+    width: 90%;
+    padding: 0 5%;
+    align-self: center;
+}
+
+.card {
+    width: 500px;
+}
+
+#bts {
+    padding: 10px;
+    background-color: #ffb900;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.iconlinks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
