@@ -1,0 +1,13 @@
+body {
+    display: grid;
+    min-height: 100vh;
+    margin: 0;
+    /* define the size of our columns and rows */
+    grid-template-columns: 180px 100%;
+    grid-template-rows: 50px 1fr 200px;
+    /* layout the named cells as a grid template */
+    /* refer to the grid area names */
+    grid-template-areas:    "top top"
+                            "side content"
+                            "foot foot";
+}
