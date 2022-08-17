@@ -120,10 +120,16 @@ a {
 /* CSS for bottom nav section */
 .bottom {
     display:flex;
+    justify-content: space-between;
     flex-direction: row;
+    text-align: center;
+    padding: 40px;
+    margin: 10px;
+    
 }
 
 .bottom a {
-    color: black
+    color: black;
+    font-size: 11px;
 }
 
