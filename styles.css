@@ -1,0 +1,24 @@
+.ul1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    grid-template-rows: auto;
+}
+
+div {
+    display: flex;;
+
+}
+
+li {
+     display: block;
+}
+
+.ul2 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    grid-template-rows: auto;
+}
