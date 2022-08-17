@@ -3,20 +3,20 @@
     display:flex;
     flex-direction:row;
     align-content: space-around;
+
 }
 body{
-    background-color: yellow;
     margin: 0px;
 }
 #idDiv1{
-    background-color: aquamarine;
+    background-color:rgb(43,101,178);
     width: 100%;
     height: 61px;
     display:flex;
     justify-content: center;
+    color: aliceblue;
 }
 #idDiv2{
-    background-color: firebrick;
     width: 100%;
     height: 472px;
 }
@@ -31,13 +31,18 @@ img{
 #idDiv3 img{
     margin: 0px 70px;
 }
+li{
+    margin: 0px 23px 0px 0px;
+}
 .headerSection2{
     align-self:flex-end;
+    text-align: end;
+
 }
 #links{
    display: relative;
-   bottom: 50px;
-   left:50px
+   top: 150px;
+   right:50px;
 }
 
 .list{
@@ -45,12 +50,11 @@ img{
 }
 .headerBoxes{
     height:30px;
-    background-color: aquamarine;
+
 
 }
 #text{
     position: absolute;
-    background-color: aquamarine;
     align-self: center;
     margin:0px 0px 0px 114px;
 }
@@ -58,9 +62,13 @@ img{
     width: 40px;
     height: 40px;
 }
+.mainlogo{
+    width: 108px;
+    height: 23px;
+    margin: 14px 56px 19px 56px;
+}
 li{
     display: inline-block;
-    background-color: hotpink;
     text-align: center;
 }
 #idDiv3{
@@ -68,21 +76,15 @@ li{
     align-content: space-around;
     justify-content: center;
     flex-wrap: wrap;
-    background-color: blueviolet;
     height: 295px;
     
 }
 section{
-background-color: blueviolet;
 width:100%;
 height:56px;
 }
-a{
-    position: relative;
-    top:50px ;
-    right: 50px;
-    transform: translate(-50% 50%);
-}
+
+
 #idDiv3{
     
 }
