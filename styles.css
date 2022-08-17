@@ -1,8 +1,56 @@
 .top-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: 100px;
+    grid-template-areas: ;
+    /* justify-content: space-around;
+    align-items: center; */
     color: black;
+    background-color: blanchedalmond;
+}
+
+.logo {
+
+}
+
+.microsoft-365 {
+
+}
+
+.office {
+
+}
+
+.windows {
+
+}
+
+.surface {
+
+}
+
+.xbox {
+
+}
+
+.deals {
+
+}
+
+.support {
+
+}
+
+.all-microsoft {
+
+}
+
+.search {
+
+}
+
+.cart {
+    
 }
 
 a {
@@ -40,7 +88,7 @@ button {
     font-weight: 550;
     height: 40px;
     width: 120px;
-    position: absolute;
+    /* position: absolute; */
     top: 68%;
    
 }
