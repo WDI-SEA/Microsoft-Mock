@@ -93,22 +93,31 @@
             text-align: center;
             flex-wrap: wrap;
             display: flex;
-            padding: 0px;
+            padding: 50px;
             list-style: none;
             margin-top: 0;
             margin-bottom: 1rem;
             justify-content: center;
             height: auto;
             max-width:100%;
-            background-color: aquamarine;
-            flex-shrink: 0;
-    
+            gap: 76px;
+            font-family: inherit;
+            /* do break for the text */
+        }
+        #button{
+           margin: -650px -650px -1200px;
+
+        }
+        #msg{
+            max-width: 100vw;
+            max-height: 15vh;
+            /* margin: -10; */
         }
         /* #M365{
            left: 50px;
         }
         #surface{
-           left: 75px;
+           left: 75px;`
         } 
         #buyLogo{
             left: 90px;
@@ -122,6 +131,8 @@
     </style>
     <body>
         <div class = "page">
+
+
       <header class = "Header">
 
         <img id = "logo" src = "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31"/>
@@ -133,11 +144,8 @@
         <div class = "Tabs">Xbox</div>
         <div class = "Tabs">Deals</div>
         <div class = "Tabs">Support</div>
-
-
-
-
-        
+        <br>
+        <img id = "msg" src = "Screen Shot 2022-08-17 at 11.38.11 AM.png"/>
 
       </header>
       <aside class = "Aside">
@@ -156,31 +164,38 @@
 
     </div>
     <img src = "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/FY23BTS-Highlight-Hero-Surface-Pro-8-Platinum-Pro-Type-Cover-Platinum:VP4-1399x600" height ="75%" >
+    <div id = "button">
+        <img src = "https://github.com/WaltersMatthew/Microsoft-Mock-1/blob/main/photos/jumbo-nav.png?raw=true"/>
+    </div>
+
     </main>
 
       <footer class = "Footer"></footer>
-
         <footer2 class = "Footer2">
         <ul>
 
             <li id = "M365">
-                <img src = "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Quick-Link-Icon-80x80-Microsoft-365?wid=40&hei=40"/> Choose your Microsoft 365
+                <img src = "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-Quick-Link-Icon-80x80-Microsoft-365?wid=40&hei=40"/> <br>Choose your <br> Microsoft 365
             </li>
             <li id = "surface">
                 <img src = "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/icon-LL-surface-kickstand-120x120?wid=40&hei=40"/>
-                Shop Surface devices
+                <br>Shop Surface <br> devices
             </li>
             <li id = "buyLogo">
                 <img src = "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-ICON-LL-xbox-logo-120x120?wid=40&hei=40"/>
-                Buy Xbox games and consoles
+                <br>Buy Xbox games <br>and consoles
             </li>
             <li id = "xboxLogo">
                 <img src = "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/QuickLink-Laptop-40x40?wid=40&hei=40"/>
-                Shop for students
+                <br>Shop for students
             </li>
             <li id = "students">
                 <img src = "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Book_Icon_40x40?wid=40&hei=40"/>
-                Find your next PC
+                <br>Find your next PC
+            </li>
+            <li id = "business">
+                <img src = "https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/gldn-ICON-LL-briefcase-120x120?wid=40&hei=40"/>
+                <br>Shop Business
             </li>
 
         </ul>
