@@ -1,0 +1,36 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 4fr 1fr;
+}
+
+.header {
+    font-size: 12px;
+    display: grid;
+    grid-template-columns: 10fr 12fr 8fr 10fr 10fr 10fr 10fr 10fr 50fr 7fr 10fr 10fr 10fr 10fr;
+    margin-top: 70px;
+    align-items: baseline;
+    height: 75px;
+}
+
+.banner {
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+}
+
+.main grid-template-columns {
+    background-color: lightgray;
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1 fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.footer {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 3fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr;
+}
