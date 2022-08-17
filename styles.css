@@ -1,0 +1,39 @@
+body {
+        color:blueviolet;
+        background-color: rgb(242, 242, 242);
+    }
+.grid-container {
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 10fr 4fr;
+    grid-gap: .1rem;
+    background-color: grey;
+}
+
+.nav-row {
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.blue-row {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+
+.main-row {
+    grid-row-start: 3;
+    grid-row-end: 12;
+}
+
+.cards-row {
+    grid-row-start: 13;
+    grid-row-end: 16;
+}
+
+
+

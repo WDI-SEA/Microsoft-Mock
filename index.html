@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <style>
+        body {
+        color: black;
+        background-color: rgb(242, 242, 242);
+    }
+.grid-container {
+    display: flex;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 10fr 4fr;
+    grid-gap: .1rem;
+    background-color: rgb(242, 242, 242);
+}
+
+.nav-row {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    color: rgb(102, 102, 102)
+}
+
+.blue-row {
+    grid-row-start: 2;
+    grid-row-end: 2;
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    justify-content: center;
+}
+
+.main-row-left {
+    grid-row-start: 3;
+    grid-row-end: 12;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    color: black;
+}
+
+.main-row-right {
+    grid-row-start: 3;
+    grid-row-end: 12;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+
+.cards-row {
+    grid-row-start: 13;
+    grid-row-end: 16;
+
+}
+
+
+    </style>
+    <title>Microsoft-mock-up</title>
+  </head>
+  <body>
+    <div class="grid-containter">
+        <div class = "nav row">
+                <div>Microsoft</div>
+                <div>Microsoft 365</div>
+                <div>Office</div>
+                <div>Windows</div>
+                <div>Surface</div>
+                <div>Xbox</div>
+                <div>Deals</div>
+                <div>Small Buisness</div>
+                <div>Support</div>
+                <div>All Microsoft</div>
+                <div>Search</div>
+                <div>Cart</div>
+                <div>Sign in</div>
+        </div>
+        <div class="blue-row">Students, parents and educators: Take up tp 10% off* select tech, including select Surface. Shop now ></div>
+        <div class="main-row">
+            <div class="main-row-left">
+                <div id="yellow-box">Back to School</div>
+                <h2>Surface Prop 9 (i5) + Surface Pro Keyboard</h2>
+                <p>Complete your study setup and save big when you bundle the most powerful Pro with a sleek, compact Surface keyboard. If you have questions before you buy, chat with a product expert.</p>
+                <div id="blue-box">Shop Now</div>
+                <div id="blue-text">Book an appointment</div>
+            </div>
+            <div class="main-row-right"></div>
+        </div>
+        <div class="card-row">
+            <div class="cards">Choose your Microsoft 365</div>
+            <div class="cards">Shop Surface Deivices</div>
+            <div class="cards">Buy Xbox games and consoles</div>
+            <div class="cards">Shop for students</div>
+            <div class="cards">Find your next PC</div>
+            <div class="cards">Shop Buisness</div>
+        </div>
+    </div>
+    
+  </body>
+</html>
