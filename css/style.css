@@ -1,0 +1,88 @@
+#headerDiv{
+    background-color: white;
+    display:flex;
+    flex-direction:row;
+    align-content: space-around;
+}
+body{
+    background-color: yellow;
+    margin: 0px;
+}
+#idDiv1{
+    background-color: aquamarine;
+    width: 100%;
+    height: 61px;
+    display:flex;
+    justify-content: center;
+}
+#idDiv2{
+    background-color: firebrick;
+    width: 100%;
+    height: 472px;
+}
+#innerDiv2{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 100%;
+    height: 472px;
+}
+#idDiv3 img{
+    margin: 0px 70px;
+}
+.headerSection2{
+    align-self:flex-end;
+}
+#links{
+   display: relative;
+   bottom: 50px;
+   left:50px
+}
+
+.list{
+    display:inline-block;
+}
+.headerBoxes{
+    height:30px;
+    background-color: aquamarine;
+
+}
+#text{
+    position: absolute;
+    background-color: aquamarine;
+    align-self: center;
+    margin:0px 0px 0px 114px;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+li{
+    display: inline-block;
+    background-color: hotpink;
+    text-align: center;
+}
+#idDiv3{
+    display:flex;
+    align-content: space-around;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    height: 295px;
+    
+}
+section{
+background-color: blueviolet;
+width:100%;
+height:56px;
+}
+a{
+    position: relative;
+    top:50px ;
+    right: 50px;
+    transform: translate(-50% 50%);
+}
+#idDiv3{
+    
+}
