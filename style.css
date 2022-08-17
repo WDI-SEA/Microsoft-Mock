@@ -109,3 +109,21 @@ a {
     width: 100px ;
 
 }
+
+.appt{
+    color: rgba(43, 101, 178);
+    position: absolute;
+    margin-left: 230px;
+    top: 390px
+
+}
+/* CSS for bottom nav section */
+.bottom {
+    display:flex;
+    flex-direction: row;
+}
+
+.bottom a {
+    color: black
+}
+
