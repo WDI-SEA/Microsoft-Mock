@@ -1,0 +1,18 @@
+ul li {
+    display: inline;
+    flex-direction: row;
+    padding: 10px 10px 0px 20px;
+    flex-flow: column;
+    align-content: center;
+    float:left;
+}
+.Image1 {
+    float: left;
+    padding: 20px;
+}
+.header {
+    /* padding-bottom: 50px; */
+}
+.Mainimg {
+   
+}
