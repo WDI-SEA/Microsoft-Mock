@@ -1,16 +1,129 @@
-/* body {
-    background-color: green;
+html {
+    font-family:sans-serif;
+}
+
+.navbar-container {
+    height: 40px;
+    width: 1000px;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+/* .navbar-container > div {
+    border: 2px solid blue;
 } */
 
-nav {
-    font-size: 15px;
-    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #262626;
+.left-nav {
+    width: 50%;
+}
+.left-nav > ul {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.microsoft-logo {
+    height: 10px;
+    width: 60px;
+}
+
+.left-nav > ul > li {
+    height: fit-content;
+    margin: 2px;
+}
+
+.center-nav {
+    width: 15%;
+}
+.right-nav {
+    width: 35%;
 }
 
 
-#microsoft-logo {
-    width: 50%;
-    height: 50%;
+.covid-msg-container {
+    height: 40px;
+    width: 1000px;
+    background-color: rgb(60,106,190);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-style: normal;
+}
+
+
+
+.main-container {
+    height: 450px;
+    width: 1000px;
+    /* border: 2px solid black; */
+    background-image: url("https://www.xda-developers.com/files/2020/05/Surface-Sprint-2020-Feature.jpg");
+    background-size: 100%;
+    /* background-size: contain; */
+    background-position: center;
+}
+.icon-choices-container {
+    height: 60px;
+    width: 1000px;
+    /* border: 2px solid red; */
+}
+
+
+.right-nav > ul {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.right-nav > ul > li {
+    height: fit-content;
+    margin: 2px;
+}
+
+
+.main-message {
+    /* border: 2px red solid; */
+    text-align: center;
+}
+
+.main-message p {
+    font-size: 12px;
+}
+
+
+.main-message button {
+    border: none;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: black;
+}
+
+.icon-choices-container ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-weight: bold;
+}
+
+.icon-choices-container ul li {
+    height: fit-content;
+    width: 120px;
 
 }
