@@ -1,0 +1,50 @@
+.navbar-container {
+    height: 5vh;
+    width: 95vw;
+    border: 2px solid red;
+    display: flex;
+}
+
+.navbar-container > div {
+    border: 2px solid blue;
+}
+
+.left-nav {
+    width: 40%;
+    
+}
+
+
+.center-nav {
+    width: 25%;
+}
+.right-nav > ul {
+    height: 5vh;
+
+}
+
+.left-nav > ul > li {
+    margin: 2px;
+}
+
+.right-nav {
+    width: 35%;
+}
+
+
+.covid-msg-container {
+    height: 5vh;
+    width: 95vw;
+    background-color: blue;
+}
+.main-container {
+    width: 95vw;
+    height: 70vh;
+    border: 2px solid black;
+    background-image: url("https://www.xda-developers.com/files/2020/05/Surface-Sprint-2020-Feature.jpg");
+    background-size: 70vh 95vw;
+}
+.icon-choices-container {
+    height: 5vh;
+    width: 95vw;
+    border: 2px solid red;
