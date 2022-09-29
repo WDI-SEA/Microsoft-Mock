@@ -1,0 +1,107 @@
+
+html {
+    font-family:sans-serif;
+    height: 200vh;
+}
+#head {
+    height: 65px;
+    border:solid white;
+}
+#COVID-hd {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(60,106,190);
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-style: normal
+}
+#img {
+    width: 100%;
+}
+#MicrosoftLogo
+{
+    padding-right: 4px;
+}
+#LastHeading {
+    height: 30%;
+    background-color: white;
+}
+.container-fluid > ul {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 12px;
+}
+.container-fluid{
+    
+        width: 50%;
+    }
+.container-fluid> ul > li {
+    height: fit-content;
+    margin: 2px;
+}
+.nav-link {
+    font-size: 12px;
+    font-weight: 350;
+    color: black;
+}
+
+.main-message {
+    text-align: center;
+}
+
+.main-message p {
+    font-size: 12px;
+}
+.icon-choices ul li {
+    height: fit-content;
+    width: 120px;
+}
+.icon-choicesul {
+    display: flex;
+    font-weight: bold;
+    list-style-type: none;
+    align-items: flex-start;
+    justify-content: space-evenly
+}
+.main-message {
+    text-align: center;
+}
+
+.main-message p {
+    font-size: 12px;
+}
+
+.main-message button {
+    border: none;
+    font-weight: bold;
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: black;
+}
+.right-nav > ul {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.right-nav > ul > li {
+    height: fit-content;
+    margin: 2px;
+}
