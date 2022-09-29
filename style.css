@@ -1,9 +1,37 @@
-.container-left {
-    width: 50%;
-    height: 10%;
+
+.main-body {
+    height: 5vh;
+    width: 95vw;
     display: flex;
+}
+
+
+.container-left {
+    width: 40%;
+    display: inline;
+    
+}
+
+.blank {
+    width: 25%;
+}
+
+.container-right {
+    width: 35%;
+}
+.main-home {
+    background-image: "https://www.xda-developers.com/files/2020/05/Surface-Sprint-2020-Feature.jpg";
+    width: 95vw;
+    height: 70vh;
+    background-size: 70vh 95vw
 }
 h1 {
     font-size: 25px;
     text-indent: 25px;
+}
+
+.navig {
+    height: 5vh;
+    width: 95vw;
+    background-color: darkcyan;
 }
