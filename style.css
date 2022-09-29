@@ -1,0 +1,16 @@
+/* body {
+    background-color: green;
+} */
+
+nav {
+    font-size: 15px;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #262626;
+}
+
+
+#microsoft-logo {
+    width: 50%;
+    height: 50%;
+
+}
