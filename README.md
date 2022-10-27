@@ -24,3 +24,6 @@ Go to the Microsoft homepage and start finding the boxes. Once you have those bo
 * Focus on the desktop version first, don't worry about making it responsive.
 * There are many different ways to go about this. If your classmate's code is drastically different from yours, that's okay! CSS is versitile and there are various methods that can be used to accomplish the same task.
 * As a BONUS, make it responsive. 
+
+Reference:
+https://news.microsoft.com/imagegallery/

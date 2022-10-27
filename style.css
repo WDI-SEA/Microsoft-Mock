@@ -1,0 +1,101 @@
+html {
+    font-family: sans-serif;
+}
+
+.navbar-container {
+    height: 50px;
+    width: 1000px;
+
+    display: flex;
+}
+.navbar-container > nav {
+
+}
+.left-nav {
+    width: 50%;
+}
+.left-nav > ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+.left-nav > ul > li {
+    height: fit-content;
+    margin: 4px;
+}
+.center-nav {
+    width: 15%;
+}
+.right-nav {
+    width: 40%;
+}
+.right-nav > ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+.right-nav > ul > li {
+    height: fit-content;
+    margin: 4px;
+}
+
+.covid-msg-container {
+    height: 40px;
+    width: 1000px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.main-container {
+    height: 600px;
+    width: 1000px;
+    background-image: url("https://news.microsoft.com/wp-content/uploads/prod/2022/04/OperatorConnect-768x504.jpg");
+    background-size: 100%;
+}
+
+.icons-container {
+    height: 100px;
+    width: 1000px;
+}
+
+.main-msg {
+    text-align: center;
+}
+
+.main-msg button {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.main-msg p {
+    font-size: 12px;
+}
+
+.icons-container ul { /* this selects all ul, if we put > then it will select only the direct children not the ones inside the ones */
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    font-weight: bold;
+}
+.icons-container ul li {
+    height: fit-content;
+    width: 130px;
+}
