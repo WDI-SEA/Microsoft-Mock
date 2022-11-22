@@ -1,0 +1,48 @@
+.brand {
+    width: 5px;
+}
+.nav { 
+    display:flex;
+    justify-content: space-between;
+}
+.nav-items{
+    display:flex;
+    list-style-type: none;
+    
+}
+.navOne{
+    margin-right: 10px;
+}
+.nav-buttons {
+    display:flex;
+    list-style-type: none;
+}
+.hero {
+    display: flex;
+}
+.p-hero{
+    margin: o auto;
+    max-width: 99%;
+    max-height: 99%;
+}
+.banner {
+background-color: #950c17;
+height: 50px;
+}
+
+.black-friday{
+    color: white;
+    text-align: center;
+}
+.search-icon {
+    height: 20px;
+    width:20px;
+}
+.shopping-cart{
+    height: 20px;
+    width: 20px;
+}
+.profile-icon{
+    height: 20px;
+    width: 20px;
+}
