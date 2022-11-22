@@ -1,0 +1,109 @@
+body {
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+    background-color: #fff;
+}
+.header #rightNav{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 -1em;
+}
+.header #leftNav{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0 -1em;
+}
+#microsoft {
+    height: 20px;
+    width: 100px;
+}
+.shopping {
+    background-color: rgb(159,0,18);
+    color: rgb(255,255,255);
+    padding-right: 1.3125em;
+    padding-left: 1.3125em;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    box-sizing:border-box;
+    line-height: 1;
+    top: 50%;
+    margin-top: -0.5em;
+    font-size: .7125em;
+    width: 100%;
+}
+.slideshow {
+    position: relative;
+    text-align: center;
+}
+#carousel {
+    width: 100%;
+}
+.imgOver {
+    display: flex;
+    content-align: flex-start;
+}
+#reset {
+    background-color: #000;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    position: absolute;
+    top: 70%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    
+}
+#desc {
+    padding: 10px;
+    font-size: 15px;
+    position: absolute;
+    top: 53%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+#BlackFriday{
+    padding: 10px;
+    font-size: 15px;
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(159,0,18);
+    font-weight: 500;
+    background-color: white;
+    padding-right: 2px;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width:100px;
+}
+#imgH2{
+    padding: 10px;
+    font-size: 15px;
+    position: absolute;
+    top: 43%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+}
+.picNav {
+    display: flex;
+    flex-direction:row;
+    align-items: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#deals, #xbox, #accessories, #business, #choose {
+    text-align: center;
+    margin: 40px;
+}
