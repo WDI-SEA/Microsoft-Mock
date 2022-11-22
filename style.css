@@ -1,0 +1,68 @@
+#header {
+  font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#header-left {
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 55%;
+  height: 30px;
+  gap: 25px;
+}
+
+#header-right {
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 90%;
+  gap: 10px;
+  min-height: 30px;
+  height: 25px;
+}
+
+#logo {
+  height: 23px;
+  width: 108px;
+  align-self: center;
+}
+
+p {
+  text-decoration: none;
+  align-self: center;
+  font-size: 14px;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
+#holidayblurb {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: #950c17;
+  height: 50px;
+}
+
+#holidaytext {
+  align-self: center;
+  font-size: 18px;
+  color: white;
+}
+
+#shopping {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  justify-content: center;
+  height: 30px;
+}
+
+.shopping {
+  width: 40px;
+  height: 40px;
+  justify-self: center;
+}
+
+.imgwrapper p {
+  font-size: 20px;
+}
