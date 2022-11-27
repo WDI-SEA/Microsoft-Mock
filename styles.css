@@ -113,12 +113,12 @@ li {
 
 a:link {
     color: black;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:visited {
     color: black; 
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 a:hover {
@@ -147,10 +147,14 @@ a:active {
     margin-top: 5px;
 }
 
+.surface{
+    margin-bottom: 5px;
+}
+
 #surface {
     width: 50px;
     height: auto;
-    margin-left: 60px;
+    margin-left: 65px;
 }
 
 #xbox {
@@ -175,10 +179,6 @@ a:active {
     width: 50px;
     height: auto;
     margin-left: 60px
-}
-
-.surface{
-    margin-bottom: 5px;;
 }
 
 .subtext {
