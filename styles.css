@@ -110,3 +110,78 @@ li {
     font-weight: bold;
     font-size: 15px;
 }
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black; 
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.subtext-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 50px;
+}
+
+.surface-deals {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 300px;
+    margin-top: 5px;
+}
+
+#surface {
+    width: 50px;
+    height: auto;
+    margin-left: 60px;
+}
+
+#xbox {
+    width: 50px;
+    height: auto;
+    margin-left: 120px
+}
+
+#access {
+    width: 50px;
+    height: auto;
+    margin-left: 80px
+}
+
+#business {
+    width: 50px;
+    height: auto;
+    margin-left: 45px
+}
+
+#msft-365 {
+    width: 50px;
+    height: auto;
+    margin-left: 60px
+}
+
+.surface{
+    margin-bottom: 5px;;
+}
+
+.subtext {
+    display: flex;
+    font-weight: bold;
+}
