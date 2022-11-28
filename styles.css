@@ -78,7 +78,6 @@ li {
 .black-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 450px;
     margin-top: 200px;
     position: absolute;
