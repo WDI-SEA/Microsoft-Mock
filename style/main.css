@@ -5,7 +5,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 15px;
+    padding: 0px;
     margin: 0 auto;
 }
 #top1 {
@@ -26,8 +26,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 750px;
-    background-color: black;
 }
 
 #cyberweek {
