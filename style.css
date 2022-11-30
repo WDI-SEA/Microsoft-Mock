@@ -1,0 +1,188 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.navFormList{
+    list-style-type: none;
+    margin: 0px;
+}
+
+.newFormLi{
+    display: inline;
+    padding: 0px 5px;
+}
+
+h2{
+    color: black ;
+
+}
+h4{
+    color: #940D17;
+    background-color: white;
+    padding: 4px;
+    margin: 0px 0px 0px 10px;
+    width: 100px;
+}
+
+button{
+    color: white;
+    font-size: 14px;
+    background-color: black;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+.navFormat:link, .navFormat:visited, .navFormat:active{
+    text-decoration-line: none;
+    color: grey;
+
+}
+
+
+.navFormat:hover{
+    color: grey;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+
+.bannerFormat:link, .bannerFormat:visited, .bannerFormat:active{
+    text-decoration-line: none;
+    color: white;
+}
+
+.bannerFormat:hover{
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 5px;
+    color: white;
+}
+
+
+#mslogo{
+    margin: 5px 0px 0px 5px;
+
+}
+
+#topBanner{
+    background-color: #940D17;
+    height: 45px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#topBanner > a:link{
+    color: grey;
+}
+
+#jumboTron{
+    position: relative;
+}
+
+#jumboTronCard{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top: 200px;
+    right: 50px;
+}
+
+#jumboTronNav{
+    background-color: white;
+}
+
+#jumboTronList{
+    list-style-type: disc;
+    text-align: center;
+}
+
+.jumboTronLi{
+    display: inline;
+}
+
+#imageNav{
+    background-color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+   
+}
+
+#imgNavItem-1 , #imgNavItem-2 , #imgNavItem-3 , #imgNavItem-4 , #imgNavItem-5{
+    margin: 5px;
+}
+
+.imgNavC{
+   display: block;
+   padding: 5% 40%;
+
+   
+
+}
+
+.imageNavA:link , .imageNavA:active, .imageNavA:hover , .imageNavA:visited {
+    color: black;
+   
+  
+}
+
+
+
+
+#shoppingCartIcon{
+    margin: 0px;
+    padding: 0px 5px;
+}
+
+#userIcon{
+    margin: 0px;
+    padding: 0px 5px;
+}
+
+#downArrowIcon{
+    align-self: flex-end;
+}
+
+#allMicrosoft{
+    margin: 0px;
+    padding-top: 0 5px;
+}
+
+
+
+#nav {
+    display: flex;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    justify-content: space-around;
+    color: grey;
+    align-items:flex-end;
+    padding: 10px;
+}
+
+#navOne{
+    padding: 5px 0px;
+
+}
+
+#navTwo{
+    padding: 5px 0px;
+
+}
+
+#navThree{
+    padding: 5px 0px;
+
+
+
+}
+#mslogo {
+    height: 20px;
+    vertical-align: center;
+}
