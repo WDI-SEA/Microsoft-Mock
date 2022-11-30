@@ -1,0 +1,174 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row;
+  margin: 2vh 0vh 2vh 0vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.brand {
+  width: 137px;
+  height: 35px;
+  margin-left: 10px;
+}
+
+.li-container {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+}
+
+.nav-buttons {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20px;
+}
+
+.nav-item {
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  margin-left: 40px;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(149, 12, 23);
+  height: 90px;
+  color: azure;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-tag {
+  font-color: white;
+  border-style: border-box;
+  border-color: black;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Family-Simplified-FY23HOLPM:VP5-1920x600");
+  height: 445px;
+}
+
+a {
+  text-decoration: none;
+}
+.hero-elements-container {
+  max-width: 25%;
+  margin-left: 850px;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-top: 50px;
+  max-width: 100%;
+}
+
+.surface-deals {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 300px;
+  margin-top: 5px;
+  margin-left: 200;
+}
+
+#surface {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+#xbox {
+  width: 50px;
+  height: auto;
+}
+
+#accessories {
+  width: 50px;
+  height: auto;
+}
+
+#business {
+  width: 50px;
+  height: auto;
+  margin-left: 45px;
+}
+
+#ms-365 {
+  width: 50px;
+  height: auto;
+  margin-left: 60px;
+}
+
+.surface {
+  margin-bottom: 5px;
+}
+
+.subtext {
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 150px;
+  height: 470px;
+  width: 1800;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-img-top {
+  width: 280px;
+  height: 215px;
+}
+
+.card-body {
+  width: 280px;
+  height: 215px;
+}
+.shop-btn {
+  font-weight: 600;
+  color: rgb(126, 32, 27);
+}
+.card-text {
+  display: flex;
+  flex-wrap: wrap;
+}
