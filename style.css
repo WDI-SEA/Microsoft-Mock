@@ -1,0 +1,113 @@
+body {
+    font-family:sans-serif;
+    height: 200vh;
+}
+
+.navbarContainer {
+    height: 40px;
+    width: 1000px;
+    display: flex;
+}
+
+
+.leftNav > ul {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.logo {
+    height: 10px;
+    width: 60px;
+}
+
+.leftNav > ul > li {
+    height: fit-content;
+    margin: 2px;
+}
+
+.centerNav {
+    width: 15%;
+}
+.rightNav {
+    width: 35%;
+}
+
+
+.msgContainer {
+    height: 40px;
+    width: 1000px;
+    background-color: maroon;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-style: normal;
+}
+.mainContainer {
+    height: 450px;
+    width: 1000px;
+    background-image: url("https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Family-Simplified-FY23HOLPM:VP1-539x440");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.tag{
+    color: maroon;
+    font-size: 12px;
+    font-weight: bold;
+}
+.iconContainer {
+    height: 60px;
+    width: 1000px;
+
+}
+
+
+.rightNav > ul {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    font-size: 12px;
+}
+
+
+.mainMessage {
+    text-align: center;
+    
+}
+
+.mainMessage p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.mainMessage button {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    padding: 6px;
+}
+.iconContainer ul {
+    display: flex;
+    font-weight: bold;
+    list-style-type: none;
+    align-items: flex-start;
+    justify-content: space-evenly
+}
+
+.iconContainer ul li {
+    height: fit-content;
+    width: 120px;
+}
