@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta http-equiv="x-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script src="https://kit.fontawesome.com/fc554e7ebf.js" crossorigin="anonymous"></script>
+
+<script src="./script.js"></script>
+
+<head>
+    <title> Welcome to Microsoft</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+
+        .nav-bar {
+            display: grid;
+            margin: 0;
+            max-height: 100vh;
+            grid-template-rows: 1.5fr;
+            grid-template-columns: .1fr .3fr .3fr .3fr .3fr .3fr .3fr .3fr 2fr .3fr .3fr .3fr .3fr .3fr;
+            font-size: 1.2rem;
+
+        }
+
+        #image {
+            padding-right: 20px;
+
+        }
+
+        #body-text {
+            font-size: 2rem;
+            padding: 10px;
+        }
+
+        #description {
+            font-size: .9rem;
+            padding-bottom: 20px;
+        }
+
+        .hero-piece {
+            background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Key-Art-Cyber-Week-FY23HOLPM:VP1-539x440');
+            height: 450px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+        }
+
+        .bottom-nav {
+            display: grid;
+            margin: 0;
+            max-height: 100vh;
+            grid-template-rows: 1fr;
+            grid-template-columns: repeat(11, .3fr);
+            padding-top: 30px;
+        }
+
+        #xdeals {
+            grid-column: 4 / 4;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="screen">
+        <div class="nav-bar">
+            <div class="nav-piece" id="image"><img
+                    src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31">
+            </div>
+            <div class="nav-piece" id="mic365">Microsoft 365</div>
+            <div class="nav-piece" id="office">Office</div>
+            <div class="nav-piece" id="windows">Windows</div>
+            <div class="nav-piece" id="surface">Surface</div>
+            <div class="nav-piece" id="xbox">Xbox</div>
+            <div class="nav-piece" id="deals">Deals</div>
+            <div class="nav-piece" id="support">Support</div>
+            <div class="nav-piece" id="spacer"></div>
+            <div class="nav-piece" id="all-microsoft">All Microsoft</div>
+            <div class="nav-piece" id="search">Search<i class="fa-solid fa-magnifying-glass"></i></div>
+            <div class="nav-piece" id="cart">Cart<i class="fa-solid fa-cart-shopping"></i></div>
+            <div class="nav-piece" id="sign-in">Sign-in</div>
+            <div class="nav-piece" id="profile"><i class="fa-regular fa-user"></i>Profile</div>
+        </div>
+        <div class='torso'>
+            <div class="torso-piece" id="body-text">Microsoft Store Deals</div>
+            <div class="torso-piece" id="description">We offer free 2-3 day shipping, free returns,
+                and flexible payment options that start at 0% APR.</div>
+            <div class="hero-piece" id="image2">
+            </div>
+            <div class="bottom-nav">
+                <div class="torso-piece" id="xdeals"><i class="fa-brands fa-xbox"></i>Xbox Deals</div>
+                <div class="torso-piece" id="sdeals"><i class="fa-solid fa-laptop"></i>Surface Deals</div>
+                <div class="torso-piece" id="gifts"><i class="fa-solid fa-gift"></i>Holiday Gifts</div>
+                <div class="torso-piece" id="adeals"><i class="fa-solid fa-headphones"></i>Accessories deals</div>
+                <div class="torso-piece" id="appt"><i class="fa-regular fa-calendar-days"></i>Personal shopping
+                    appointments</div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
