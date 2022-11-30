@@ -1,0 +1,13 @@
+.rednav {
+display: flex;
+justify-content: right;
+    color: white;
+
+}
+.hero{
+    background-image: url('./Highlight-Surface-Family-Simplified-FY23HOLPM_VP5-1920x600.avif');
+    height: 450px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
