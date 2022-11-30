@@ -51,6 +51,9 @@ body {
     font-size: 15px;
     font-style: normal;
 }
+.wrap {
+    flex-wrap: wrap;
+}
 .mainContainer {
     height: 450px;
     width: 1000px;
