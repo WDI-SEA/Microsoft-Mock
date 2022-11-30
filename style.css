@@ -1,0 +1,174 @@
+body{
+    font-family:'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+li {
+    display:inline;
+    padding:0 5px;
+}
+.headlink{
+    text-decoration:none;
+    font-size:13px;
+    color:black;
+    padding: 0 8px;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+
+img.c-image{
+    height: 23px;
+    width:108px;
+    margin: -4px 0 0 0;
+}
+
+img.cart{
+  
+    width:33px;
+    height:35px;
+    object-fit:cover;
+    padding: 3px 0px 0px 0px;
+
+}
+img.search{
+   
+    width:18px;
+    height:18px;
+    object-fit:contain;
+    padding: 13px 0px 0px 0px;
+}
+
+img.profile{
+
+    width:32px;
+    height:32px;
+    padding:5px 0px 0px 0px;
+}
+
+.header{
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:140px 3fr 290px;
+    grid-template-areas: "headone headtwo headthree";
+}
+
+.headerRight{
+    display:flex;
+    justify-content: space-between;
+    grid-area: headthree;
+    margin: 0 36px;
+}
+.mainLinks{
+    grid-area: headtwo;
+    padding: 0 0 3px 0;
+    margin: -3px 0 0 0;
+}
+.mainLogo{
+    grid-area: headone;
+    margin: 13px 20px;
+}
+a.all{
+    margin:15px 0px 0px 0px;
+}
+
+.banner{
+    background-color: #950C17;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-weight: 500;
+    font-size:15px;
+}
+
+img.mega{
+    max-width:100%;
+    max-height:100%;
+    object-fit: cover;
+    margin: 0 0 30px 0;
+}
+
+.slider{
+    position:relative;
+}
+.slider-text{
+    position:absolute;
+    top:30%;
+    right:5%;
+
+}
+.sl-text-one{
+    text-indent: 10px;
+    color:#950C17;
+    font-weight:500;
+}
+
+h1{
+    font-weight:500;
+}
+h3{
+    font-weight:400;
+}
+
+.sl-text-three{
+    background-color:black;
+    color:white;
+    max-width:170px;
+    padding: 10px;
+    text-align:center;
+    font-weight: 500;
+}
+
+.iconlabels{
+    font-size:15px;
+    color:black;
+    font-weight:500;
+    display:flex;
+    justify-content:center;
+    
+}
+
+.iconimg{
+    padding:0 0 10px 40%;
+}
+
+.surface-icon{
+    grid-area: one;
+}
+.xbox-icon{
+    grid-area: two;
+}
+.accessory-icon{
+    grid-area: three;
+}
+.business-icon{
+    grid-area: four;
+}
+.threesixfive-icon{
+    grid-area: five;
+}
+
+.icons{
+    margin: 80px 0;
+    display:grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "one two three four five";
+}
+
+.mover {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glide-leftright{
+    max-width: 30px;
+    max-height: 30px;
+    margin: 0 30px;
+}
+
+.glide-dot{
+    max-width: 10px;
+    max-height: 10px;
+    margin: 0 7px;
+}
