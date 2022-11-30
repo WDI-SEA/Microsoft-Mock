@@ -1,22 +1,23 @@
 #header {
   font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  min-height: 40px;
+  font-size: 14px;
 }
 
 #header-left {
-  display: inline-flex;
-  justify-content: flex-end;
-  width: 55%;
-  height: 30px;
-  gap: 25px;
+  grid-column: 2 / span 4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 #header-right {
-  display: inline-flex;
-  justify-content: flex-end;
-  width: 90%;
-  gap: 10px;
-  min-height: 30px;
-  height: 25px;
+  grid-column: 9 / span 2;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 #logo {
@@ -31,7 +32,11 @@ p {
   font-size: 14px;
 }
 
-p:hover {
+.hover:hover {
+  text-decoration: underline;
+}
+
+.underline {
   text-decoration: underline;
 }
 
@@ -50,19 +55,10 @@ p:hover {
 }
 
 #shopping {
-  display: flex;
-  width: 100%;
-  gap: 30px;
-  justify-content: center;
-  height: 30px;
-}
-
-.shopping {
-  width: 40px;
-  height: 40px;
-  justify-self: center;
-}
-
-.imgwrapper p {
-  font-size: 20px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr 1fr;
+  width: 75%;
+  justify-items: center;
+  margin: 0 300px;
 }
