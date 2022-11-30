@@ -1,0 +1,48 @@
+body {
+    display: grid;
+    min-height: 100vh;
+    margin: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 30px 2fr 0.5fr;
+    grid-template-areas:    'header '
+                            'under-header'
+                            'screen'
+                            'bottom';
+}
+
+img {
+    width: 90px;
+    height: 50px;
+    margin: 0px 20px 0px 10px;
+}
+
+.header-text {
+    /* margin-top: 17px;
+    margin-right: 20px;
+    margin-left: 20px; */
+    margin: 18px 20px 20px 0;
+    font-size: 14px;
+}
+
+#header {
+    
+    margin: 0;
+    display: inline-flex;
+
+}
+
+#under-header {
+    background-color: rgb(101, 101, 247);
+    text-align: center;
+    font-size: 24px;
+    align-self: center;
+    
+}
+
+#screen {
+    background-color: rgb(179, 173, 173);
+}
+
+#bottom {
+    /* background-color: yellowgreen; */
+}
