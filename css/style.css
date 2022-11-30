@@ -1,0 +1,154 @@
+body {
+    font-family: "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    height: 50px;
+    /* margin-left: 50px; */
+}
+
+.microsoft-logo {
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    margin-left: 30px;
+}
+
+.microsoft {
+    height: 20px;
+    width: 100px;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 180px;
+    width: 50%;
+    list-style: none;
+}
+
+li {
+    color: rgb(89, 86, 86);
+    align-items: baseline;
+    font-family: "Segoe UI","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.search-cart-profile {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+    list-style: none;
+}
+
+.red-banner {
+    color: white;
+    background-color: #950c17;
+    display: block;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 0;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+p {
+    margin: 0px;
+}
+
+.laptop-picture-url {
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.search-icon {
+    height: 20px;
+    width: 20px;
+}
+.shopping-cart-icon {
+    height: 20px;
+    width: 20px;
+}
+.profile-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.on-surface {
+    position: absolute;
+    display: flex;
+    margin-left: 60%;
+    margin-top: 80px;
+}
+
+.laptops {
+    position: relative;
+    display: flex;
+}
+
+.laptop-picture {
+    display: flex;
+    justify-content: center;
+}
+
+.unwrap {
+    font-size: medium;
+    font-weight: normal;
+}
+
+.cyber-week {
+    background-color: white;
+    color: red;
+    margin: 0px;
+    width: 140px;
+    padding: 10px;
+}
+
+.shop-surface {
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    width: 160px;
+
+}
+
+.on-surface {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    width: 35%;
+}
+
+.toggles {
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.bottom-bar {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    grid-row-gap: 20px;
+    margin-top: 40px;
+}
+
+.bottom-icon {
+    margin-left: 40%;
+}
