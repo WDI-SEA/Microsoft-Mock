@@ -1,0 +1,145 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: black;
+}
+
+nav {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2vh 0vh;
+    font-size: smaller;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    flex-flow: row;
+    gap: 1.5vw;
+    
+}
+
+.brand a:link {
+    text-decoration: none;
+}
+
+.brand a:hover {
+    text-decoration: underline;
+  } 
+
+.navright a:link {
+    text-decoration: none;
+    color: black;
+}
+
+.navright a:hover {
+    text-decoration: underline;
+}
+
+.navimage img {
+    display: flex;
+    height: 22px;
+    margin-left:8vw;
+}
+
+.navright {
+    display: flex;    
+    gap: 2.5vw;
+    margin-right: 10vw;
+}
+
+.announcement-bar {
+    margin-top: 1vh;
+    background-color: #950c17;
+    color: white;
+    width: 100%;
+    padding: 22px 0vh;
+    text-align: center;
+    font-size: 19px;
+    
+}
+
+.herobanner {
+    display: flex;
+    background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Family-Simplified-FY23HOLPM:VP5-1920x600');
+    background-size: cover;
+    height:525px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.herotextcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left:55%;
+    gap: 20px;
+}
+
+#cyberweek {
+    background-color: white;
+    color: darkred;
+    padding: 8px;
+    font-weight: 800;
+    border-radius: 2px;
+    
+}
+
+#heroBtn {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.herobanner h1 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.dealIcons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 9vh 15vw 0vh 15vw;  
+    text-align: center;
+}
+
+.dealstext {
+    display: block;
+}
+
+.card-products-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 15px;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.product-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:250px;
+    gap: 15px;
+}
+
+.product-container img {
+    height: 150px;
+    width:250px;
+}
+.product-header {
+    font-size: 25px;
+}
