@@ -1,0 +1,14 @@
+.jumbotron {
+	background-image: url('https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-Sapphire-Front-FY23HOL:VP4-1399x600');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+
+#icons {
+	display: flex;
+	display: inline-block;
+	
+}
+
