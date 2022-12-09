@@ -1,0 +1,72 @@
+
+#header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0px;
+}
+
+#message {
+    background-color: darkred;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+#banner {
+    width: 100%; 
+    height: auto;
+}
+
+.center-right-top {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.center-right-middle {
+    position: absolute;
+    top: 57%;
+    right: 9.3%;
+    font-size: 14px;
+    font-family: sans-serif;
+} 
+
+.button {
+    position: absolute;
+    top: 63%;
+    right: 30%;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+
+
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0px 0px 0px;
+}
+
+.menu-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 0px 30px 0px;
+}
+
